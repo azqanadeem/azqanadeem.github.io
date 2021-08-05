@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: 
 permalink: /
 description: <a href="https://www.tudelft.nl/en/">Delft University of Technology</a>
 
@@ -8,8 +8,8 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Room 6.E.040,</p>
-    <p>VMB 6, 2628 XE,</p>
+    <p>Room 6.E.040, Building 28,</p>
+    <p>Van Mourik Broekmanweg 6,</p>
     <p>Delft, The Netherlands</p>
 
 news: true  # includes a list of news items
