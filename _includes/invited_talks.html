@@ -1,0 +1,21 @@
+<div class="post">
+  <h2>Invited talks</h2>
+  {% if site.talks  %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      {% assign talk = site.talks %}
+      {% for item in talk %}
+        <tr>
+          <tr>
+          <th scope="row">{{ item.year | date: "%m-%Y" }}</th>
+          <td>
+              <a>{{ item.title }}</a> at {{item.venue}}.
+          </td>
+        </tr>
+      {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No talks so far...</p>
+  {% endif %}
+</div>

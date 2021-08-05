@@ -101,6 +101,10 @@ collections:
     defaults:
         layout: post
     output: false
+  talks:
+    defaults:
+        layout: post
+    output: false
 
 news_limit: 5
 

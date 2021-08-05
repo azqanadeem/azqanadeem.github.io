@@ -1,12 +1,20 @@
 <div class="post">
-  <h2>Courses</h2>
+  <h2>Cyber Security Lecture Series</h2>
   {% if site.courses  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
       {% assign course = site.courses %}
       {% for item in course %}
         <tr>
-          <th scope="row">{{ item.topic }}</th>
+          <tr>
+          <th scope="row">{{ item.title }}</th>
+          <td>
+            {% if item.title == 'CSE1505' %}
+              {{ item.course_name }} | {{ item.topic }} ({{ item.years }})
+            {% else %}
+              {{ item.topic}} <a class="news-title" href="{{ item.slides | relative_url }}">{{ item.title }}</a>
+            {% endif %}
+          </td>
         </tr>
       {% endfor %}
       </table>
