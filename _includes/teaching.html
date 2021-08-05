@@ -1,0 +1,17 @@
+<div class="post">
+  <h2>Courses</h2>
+  {% if site.courses  %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      {% assign course = site.courses %}
+      {% for item in course %}
+        <tr>
+          <th scope="row">{{ item.topic }}</th>
+        </tr>
+      {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No teaching so far...</p>
+  {% endif %}
+</div>
