@@ -3,13 +3,13 @@ layout: page
 permalink: /publications/
 title: Publications
 description: See my Google Scholar for an updated list.
-years: [2021,2020]
+years: [2020,2021,]
 nav: true
 ---
 
 <div class="publications">
 
-{% for y in page.years %}
+{% for y in page.years reversed  %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
