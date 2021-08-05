@@ -3,7 +3,7 @@
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
       {% assign newss = site.news | reverse %}
-      {% for item in newss %}
+      {% for item in newss limit: site.news_limit %}
         <tr>
           <th scope="row">{{ item.date |  date: "%m-%Y" }}</th>
           <td>
