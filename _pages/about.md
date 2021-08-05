@@ -8,8 +8,8 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Room 6.E.040</p>
-    <p>VMB 6, 2628 XE</p>
+    <p>Room 6.E.040,</p>
+    <p>VMB 6, 2628 XE,</p>
     <p>Delft, The Netherlands</p>
 
 news: true  # includes a list of news items
