@@ -103,6 +103,7 @@ collections:
   talks:
     layout: post
     output: true
+    permalink: /teaching/:path/
 
 news_limit: 5
 
