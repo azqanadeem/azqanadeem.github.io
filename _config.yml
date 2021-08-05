@@ -98,11 +98,8 @@ collections:
     output: true
     permalink: /projects/:path/
   courses:
-    layout: post
     output: true
   teaching:
-    defaults:
-      layout: post
     output: true
     permalink: /teaching/:path/
 
