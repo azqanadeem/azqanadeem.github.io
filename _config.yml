@@ -101,7 +101,8 @@ collections:
     layout: post
     output: true
   talks:
-    layout: post
+    defaults:
+      layout: post
     output: true
     permalink: /teaching/:path/
 
