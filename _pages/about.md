@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: <a href="https://www.tudelft.nl/en/">Delft University of Technology</a>
+description:
 
 profile:
   align: right
