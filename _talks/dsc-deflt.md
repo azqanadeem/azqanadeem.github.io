@@ -2,5 +2,5 @@
 layout: post
 title: Machine learning for defensive cybersecurity
 venue: Google Developer Student Club, Delft
-year: 02-2021
+date: 2021-02-01
 ---

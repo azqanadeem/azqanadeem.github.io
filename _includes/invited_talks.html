@@ -7,7 +7,7 @@
       {% for item in talk %}
         <tr>
           <tr>
-          <th scope="row">{{ item.year | date: "%m-%Y" }}</th>
+          <th scope="row">{{ item.date | date: "%m-%Y" }}</th>
           <td>
               <a>{{ item.title }}</a> at {{item.venue}}.
           </td>
