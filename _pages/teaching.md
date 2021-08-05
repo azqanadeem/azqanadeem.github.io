@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: teaching
 permalink: /teaching/
 title: Teaching
 description: "Cyber Security Lecture Series" covers the introductory cybersecurity topics I've curated as part of the CSETT.
@@ -7,8 +7,3 @@ nav: true
 ---
 
 
-{% include teaching.html %}
-
-
-	
-{% include invited_talks.html %}
