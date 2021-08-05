@@ -100,7 +100,7 @@ collections:
   courses:
     layout: post
     output: true
-  talks:
+  teaching:
     defaults:
       layout: post
     output: true
