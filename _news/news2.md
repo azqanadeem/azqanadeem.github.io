@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 01-08-2019
+date: 2019-08-01  00:00:00-0400
 inline: true
 ---
 
