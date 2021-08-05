@@ -63,7 +63,7 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 
 contact_note: >
-  :email: &lt;firstname&gt;.&lt;lastname&gt;@tudelft.nl
+  :email: &lt; firstname &gt; [dot] &lt; lastname &gt; @tudelft.nl
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
