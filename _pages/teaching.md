@@ -9,4 +9,5 @@ nav: true
 
 {% include teaching.html %}
 
-{% include invited_talks.html %}
+
+	
