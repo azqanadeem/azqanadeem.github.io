@@ -9,10 +9,10 @@
           <tr>
           <th scope="row">{{ item.title }}</th>
           <td>
-            {% if item.title == 'CSE1505' %}
-              {{ item.course_name }} | {{ item.topic }} ({{ item.years }})
+            {% if item.title == "CSE1505" %}
+              {{ item.course_name }} | 
             {% else %}
-              {{ item.topic}} <a class="news-title" href="{{ item.slides | relative_url }}">{{ item.title }}</a>
+              {{ item.topic}} 
             {% endif %}
           </td>
         </tr>
