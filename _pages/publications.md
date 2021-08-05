@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: See my [Google Scholar](https://scholar.google.com/citations?&user=BN3MPnUAAAAJ) for an updated list.
+description: See my Google Scholar for an updated list.
 years: [2019,2020,2021,2022,2023]
 nav: true
 ---
