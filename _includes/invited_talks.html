@@ -6,10 +6,10 @@
       {% assign talk = site.teaching %}
       {% for item in talk %}
         <tr>
-          <tr>
+		  <th>{{ item.title }}</th>
           <th scope="row">{{ item.date | date: "%m-%Y" }}</th>
           <td>
-              <a>{{ item.title }}</a> at {{item.venue}}.
+              <a>{{ item.title }}</a> at {{ item.venue }}.
           </td>
         </tr>
       {% endfor %}
