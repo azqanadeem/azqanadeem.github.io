@@ -7,4 +7,3 @@ nav: true
 ---
 
 
-{% include invited_talks.html %}
