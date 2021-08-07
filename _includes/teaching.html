@@ -7,9 +7,9 @@
       {% for item in lectures%}
 	    {% if item.guest == 'false' %}
         <tr class="flex">
-          <th scope="row" >{{ item.title }}</th>
           <td>
-              <a href="#">"{{ item.topic }}"</a>. <span class="lec-years">[{{item.years}}]</span> 
+              {{ item.title }} <br/>
+			  Topic: <a href="#">"{{ item.topic }}"</a>. 
 			<div class="content-links">
 			  {% if item.slides %}
 				  {% if item.slides contains '://' %}
@@ -30,6 +30,7 @@
 				{% endif %}
 			</div>
           </td>
+		  <th scope="row" class="lec-years" >{{ item.years }}</th>
 	 </tr>
 		  {% endif %}
       {% endfor %}
@@ -38,8 +39,9 @@
 	    {% if item.guest %}
         <tr class="flex">
           <th scope="row" >{{ item.title }}</th>
-          <td >
-              <a href="#">"{{ item.topic }}"</a>. (Guest Lecture) <span class="lec-years">[{{item.years}}]</span> 
+          <td>
+              {{ item.title }} <br/>
+			  Topic: <a href="#">"{{ item.topic }}"</a>. 
 			<div class="content-links">
 			  {% if item.slides %}
 				  {% if item.slides contains '://' %}
@@ -60,6 +62,8 @@
 				{% endif %}
 			</div>
           </td>
+		  <th scope="row" class="lec-years" >{{ item.years }}</th>
+
 		 </tr>
 		  {% endif %}
       {% endfor %}
