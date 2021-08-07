@@ -100,9 +100,10 @@ collections:
     permalink: /projects/:path/
   courses:
     output: true
+  supervise:
+    output: true
   talks:
     output: true
-    permalink: /talks/:path/
 
 news_limit: 5
 

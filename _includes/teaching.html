@@ -3,12 +3,12 @@
   {% if site.courses  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
-      {% assign lectures = site.courses %}
+      {% assign lectures = site.courses reversed %}
       {% for item in lectures%}
 	    {% if item.guest == 'false' %}
         <tr class="flex">
           <td>
-              [{{ item.title }}] {{ item.name }} <br/>
+              <b> [{{ item.title }}] {{ item.name }} </b> <br/>
 			  Topic: <a href="#">"{{ item.topic }}"</a>. 
 			<div class="content-links">
 			  {% if item.slides %}
@@ -34,13 +34,13 @@
 	 </tr>
 		  {% endif %}
       {% endfor %}
-	  {% assign lectures = site.courses %}
+	  
 	  {% for item in lectures%}
 	    {% if item.guest == 'true' %}
         <tr class="flex">
           <td>
-               [{{ item.title }}] {{ item.name }} <br/>
-			  Topic: <a href="#">"{{ item.topic }}"</a>. 
+               <b> [{{ item.title }}] {{ item.name }} </b> <br/>
+			  Topic: <a href="#">"{{ item.topic }}"</a>. (Guest lecture)
 			<div class="content-links">
 			  {% if item.slides %}
 				  {% if item.slides contains '://' %}
@@ -70,5 +70,42 @@
     </div>
   {% else %}
     <p>No lectures so far...</p>
+  {% endif %}
+</div>
+
+<hr/>
+
+<div class="news">
+  <h4>Supervision</h4>
+  {% if site.supervise  %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      <tr><th>MSc. theses</th></tr>
+	  {% assign project = site.supervise %}
+      {% for item in project reversed%}
+	  {% if item.degree == MSc. %}
+        <tr>
+          <td>
+              <a href="{{ item.link }}">"{{ item.topic }}"</a> by {{ item.student }}.
+          </td>
+		  <td scope="row" class="lec-years">{{ item.year }}</td>
+        </tr>
+		{% endif %}
+      {% endfor %}
+	  <tr><th>BSc. theses</th></tr>
+      {% for item in project reversed%}
+	  {% if item.degree == BSc. %}
+        <tr>
+          <td>
+              <a href="{{ item.link }}">"{{ item.topic }}"</a> by {{ item.student }}.
+          </td>
+		  <td scope="row" class="lec-years">{{ item.year }}</td>
+        </tr>
+		{% endif %}
+      {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No talks so far...</p>
   {% endif %}
 </div>
