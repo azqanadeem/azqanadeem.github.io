@@ -82,24 +82,24 @@
   {% if site.supervise  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
-      <tr><th>MSc. theses</th></tr>
+      <tr><th>Master theses</th></tr>
 	  {% assign project = site.supervise %}
       {% for item in project %}
 	  {% if item.degree == 'MSc.' %}
         <tr>
           <td>
-              <a href="{{ item.link }}">"{{ item.topic }}"</a> by {{ item.student }}.
+              <b><a href="{{ item.link }}">"{{ item.topic }}"</a></b> by {{ item.student }}.
           </td>
 		  <td scope="row" class="lec-years">{{ item.year }}</td>
         </tr>
 		{% endif %}
       {% endfor %}
-	  <tr><th>BSc. theses</th></tr>
+	  <tr><th>Bachelor theses</th></tr>
       {% for item in project %}
 	  {% if item.degree == 'BSc.' %}
         <tr>
           <td>
-              <a href="{{ item.link }}">"{{ item.topic }}"</a> by {{ item.student }}.
+              <b><a href="{{ item.link }}">"{{ item.topic }}"</a></b> by {{ item.student }}.
           </td>
 		  <td scope="row" class="lec-years">{{ item.year }}</td>
         </tr>
