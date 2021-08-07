@@ -6,9 +6,16 @@
       {% assign talk = site.teaching %}
       {% for item in talk reversed%}
         <tr>
-          <th scope="row">{{ item.date | date: "%-m-%y" }}</th>
-          <td>
-              <em><a href="#">{{ item.title }}</a></em> at {{item.venue}}.
+          <th scope="row" class="col-md-1">{{ item.date | date: "%m-%Y" }}</th>
+          <td class="col-md-10">
+              <em><a href="#">{{ item.title }}</a></em> at {{item.venue}}. 
+			  {% if item.slides %}
+				  {% if item.slides contains '://' %}
+					<a href="{{ item.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+				  {% else %}
+					<a href="{{ item.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+				  {% endif %}
+				{% endif %}
           </td>
         </tr>
       {% endfor %}

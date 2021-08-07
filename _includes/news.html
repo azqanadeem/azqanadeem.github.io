@@ -5,8 +5,8 @@
       {% assign newss = site.news | reverse %}
       {% for item in newss %}
         <tr>
-          <th scope="row">{{ item.date |  date: "%m-%Y" }}</th>
-          <td>
+          <th scope="row" class="col-md-1">{{ item.date |  date: "%m-%Y" }}</th>
+          <td class="col-md-10">
             
               {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
             
