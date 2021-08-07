@@ -11,10 +11,11 @@ nav: true
 <div class="publications">
 
 {% for cat in page.categories  %}
-<h2 class="year">{{cat}}</h2>
-{% for y in page.years reversed  %}
-  {% bibliography -f papers -q @*[type={{cat}}]* %}
-{% endfor %}
+	<h3>{{cat}}</h3>
+	{% for y in page.years reversed  %}
+		<h2 class="year">{{y}}</h2>
+		{% bibliography -f papers -q @*[kind={{cat}} && year={{y}}]* %}
+	{% endfor %}
 {% endfor %}
 
 </div>
