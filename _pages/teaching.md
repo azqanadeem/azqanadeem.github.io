@@ -7,4 +7,4 @@ nav: true
 ---
 
 
-{% include invited_talks.html %}
+{% include teaching.html %}
