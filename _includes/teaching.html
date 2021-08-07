@@ -30,15 +30,14 @@
 				{% endif %}
 			</div>
           </td>
-		  <th scope="row" class="lec-years" >{{ item.years }}</th>
+		  <td scope="row" class="lec-years" >{{ item.years }}</td>
 	 </tr>
 		  {% endif %}
       {% endfor %}
 	  {% assign lectures = site.courses %}
 	  {% for item in lectures%}
-	    {% if item.guest %}
+	    {% if item.guest == 'true' %}
         <tr class="flex">
-          <th scope="row" >{{ item.title }}</th>
           <td>
               {{ item.title }} <br/>
 			  Topic: <a href="#">"{{ item.topic }}"</a>. 
@@ -62,7 +61,7 @@
 				{% endif %}
 			</div>
           </td>
-		  <th scope="row" class="lec-years" >{{ item.years }}</th>
+		  <td scope="row" class="lec-years" >{{ item.years }}</td>
 
 		 </tr>
 		  {% endif %}
