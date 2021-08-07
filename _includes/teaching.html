@@ -85,7 +85,7 @@
       <tr><th>MSc. theses</th></tr>
 	  {% assign project = site.supervise %}
       {% for item in project reversed%}
-	  {% if item.degree == MSc. %}
+	  {% if item.degree == 'MSc.' %}
         <tr>
           <td>
               <a href="{{ item.link }}">"{{ item.topic }}"</a> by {{ item.student }}.
@@ -96,7 +96,7 @@
       {% endfor %}
 	  <tr><th>BSc. theses</th></tr>
       {% for item in project reversed%}
-	  {% if item.degree == BSc. %}
+	  {% if item.degree == 'BSc.' %}
         <tr>
           <td>
               <a href="{{ item.link }}">"{{ item.topic }}"</a> by {{ item.student }}.
