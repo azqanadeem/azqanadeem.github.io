@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Ph.D. candidate in the [Cyber Analytics Lab](https://cyber-analytics.nl/) at Delft University of Technology's [Cyber Security group](https://www.tudelft.nl/cybersecurity/). My PhD advisor is [Dr. ir. Sicco Verwer](https://www.tudelft.nl/staff/s.e.verwer/). 
 
-My research lies at the intersection of **Machine Learning and Cyber Securtiy**. Specifically, I develop explainable sequential machine learning pipelines to analyze network attacks.
+My research lies at the intersection of <b class="main-name">Machine Learning and Cyber Securtiy</b>. Specifically, I develop explainable sequential machine learning pipelines to analyze network attacks.
 
 Next to research, I teach Cyber Security topics to BSc. (Computer Science and Engineering) students. The lecture slides can be found under [Cyber Security Lecture Series](https://azqa.github.io/teaching/).
 
