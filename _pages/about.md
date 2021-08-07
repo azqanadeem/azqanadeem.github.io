@@ -8,17 +8,19 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Room 6.E.040, Building 28,</p>
-    <p>Van Mourik Broekmanweg 6,</p>
-    <p>Delft, The Netherlands</p>
+    <p>6.E.040, Building 28,</p>
+    <p>Delft University of Technology,</p>
+    <p>The Netherlands</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. candidate in the [Cyber Security group](https://www.tudelft.nl/cybersecurity/) at Delft University of Technology. I work at the [Cyber Analytics Lab](https://cyber-analytics.nl/) under the supervision of [Dr. ir. Sicco Verwer](https://www.tudelft.nl/staff/s.e.verwer/). My research lies at the intersection of Machine Learning and Cyber Securtiy. Specifically, I develop explainable sequential machine learning pipelines to analyze network attacks.
+I am a Ph.D. candidate in the [Cyber Analytics Lab](https://cyber-analytics.nl/) at Delft University of Technology's [Cyber Security group](https://www.tudelft.nl/cybersecurity/). My PhD advisor is [Dr. ir. Sicco Verwer](https://www.tudelft.nl/staff/s.e.verwer/). 
 
-In addition to my research, I teach Cyber Security topics to B.Sc. (Computer Science and Engineering) students. The lecture slides can be found under [Cyber Security Lecture Series]().
+My research lies at the intersection of **Machine Learning and Cyber Securtiy**. Specifically, I develop explainable sequential machine learning pipelines to analyze network attacks.
 
-When I'm not working, you will find me traveling, and polishing my photography skills. I love having discussions about human psychology, devious behavior, cats, imposter syndrome, and... well... cats.
+Next to research, I teach Cyber Security topics to BSc. (Computer Science and Engineering) students. The lecture slides can be found under [Cyber Security Lecture Series](https://azqa.github.io/teaching/).
+
+Outside of work, I love traveling and landscape photography. I enjoy discussions about devious behavior, human psychology, cats, imposter syndrome, and... well... cats.
