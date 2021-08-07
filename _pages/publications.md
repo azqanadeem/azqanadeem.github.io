@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /research/
-title: Research
+permalink: /publications/
+title: Publications
 description: See updated list on Google Scholar.
 years: [2018, 2019, 2020,2021]
 categories: ['Conferences and Symposia', 'Workshops', 'Chapters', 'Posters']
@@ -10,7 +10,6 @@ nav: true
 
 <div class="publications">
 
-<h2>Publications</h2>
 {% for cat in page.categories  %}
 	<h4>{{cat}}</h4>
 	{% for y in page.years reversed  %}
