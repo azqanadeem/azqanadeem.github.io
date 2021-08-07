@@ -13,8 +13,14 @@ nav: true
 {% for cat in page.categories  %}
 	<h3>{{cat}}</h3>
 	{% for y in page.years reversed  %}
-		<h2 class="year">{{y}}</h2>
-		{% bibliography -f papers -q @*[kind={{cat}} && year={{y}}]* %}
+		{%- capture citecount -%}
+		{% bibliography_count -f papers -q @*[kind={{cat}} && year={{y}}]* %}
+		{%- endcapture -%}
+
+		{% if {{citecount}} != "0"  %}
+			<h2 class="year">{{y}}</h2>
+			{% bibliography -f papers -q @*[kind={{cat}} && year={{y}}]* %}
+		{% endif %}
 	{% endfor %}
 {% endfor %}
 
