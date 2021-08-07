@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Research
-description: 
+description: See updated list on Google Scholar.
 years: [2018, 2019, 2020,2021]
 categories: ['Conferences and Symposia', 'Workshops', 'Chapters', 'Posters']
 nav: true
@@ -10,8 +10,9 @@ nav: true
 
 <div class="publications">
 
+<h2>Publications</h2>
 {% for cat in page.categories  %}
-	<h3>{{cat}}</h3>
+	<h4>{{cat}}</h4>
 	{% for y in page.years reversed  %}
 		{%- capture citecount -%}
 		{% bibliography_count -f papers -q @*[kind={{cat}} && year={{y}}]* %}
