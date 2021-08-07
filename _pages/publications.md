@@ -15,5 +15,6 @@ nav: true
 {% for y in page.years reversed  %}
   {% bibliography -f papers -q @*[type={{cat}}]* %}
 {% endfor %}
+{% endfor %}
 
 </div>
