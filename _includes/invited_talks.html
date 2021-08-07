@@ -5,6 +5,7 @@
       {% assign talk = site.talks %}
       {% for item in talk reversed%}
         <tr class="flex">
+		  <td><i class="fa fa-caret-right main-name"></i></td>
           <td>
               <a href="#">"{{ item.title }}"</a> at <em>{{item.venue}}</em>.
 			<div class="content-links">  

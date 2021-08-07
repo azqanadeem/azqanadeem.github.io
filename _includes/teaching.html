@@ -7,6 +7,7 @@
       {% for item in lectures%}
 	    {% if item.guest == 'false' %}
         <tr class="flex">
+		  <td><i class="fa fa-caret-right main-name"></i></td>
           <td>
               <b>Topic: <a href="#">"{{ item.topic }}"</a>.</b> <br/>
 			  [{{ item.title }}] {{ item.name }}
@@ -39,6 +40,7 @@
 	  {% for item in lectures%}
 	    {% if item.guest == 'true' %}
         <tr class="flex">
+		  <td><i class="fa fa-caret-right main-name"></i></td>
           <td>
                <b>Topic: <a href="#">"{{ item.topic }}"</a></b> (Guest lecture). <br/>
 			   [{{ item.title }}] {{ item.name }}
@@ -87,6 +89,7 @@
       {% for item in project %}
 	  {% if item.degree == 'MSc.' %}
         <tr>
+		  <td><i class="fa fa-caret-right main-name"></i></td>
           <td>
               <b><a href="{{ item.link }}">"{{ item.topic }}"</a></b> by {{ item.student }}.
           </td>
@@ -98,6 +101,7 @@
       {% for item in project %}
 	  {% if item.degree == 'BSc.' %}
         <tr>
+		  <td><i class="fa fa-caret-right main-name"></i></td>
           <td>
               <b><a href="{{ item.link }}">"{{ item.topic }}"</a></b> by {{ item.student }}.
           </td>
