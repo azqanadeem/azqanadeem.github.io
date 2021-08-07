@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>6.E.040, Building 28, EEMCS</p>
+    <p>6.E.040, Building 28, EEMCS,</p>
     <p>Delft University of Technology,</p>
     <p>The Netherlands</p>
 
