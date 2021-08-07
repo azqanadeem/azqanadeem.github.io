@@ -491,8 +491,8 @@ footer.sticky-bottom {
         }
       }
 .lec-years {
-      color: var(--global-text-color-light);
-      font-size: 0.875rem;
+      color: var(--global-text-color-light) !important;
+      font-size: 0.875rem !important;
 	  }
 
 // Rouge Color Customization

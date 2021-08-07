@@ -78,13 +78,13 @@
 <hr/>
 
 <div class="news">
-  <h4>Supervision</h4>
+  <h4>Thesis Supervision</h4>
   {% if site.supervise  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
       <tr><th>MSc. theses</th></tr>
 	  {% assign project = site.supervise %}
-      {% for item in project reversed%}
+      {% for item in project %}
 	  {% if item.degree == 'MSc.' %}
         <tr>
           <td>
@@ -95,7 +95,7 @@
 		{% endif %}
       {% endfor %}
 	  <tr><th>BSc. theses</th></tr>
-      {% for item in project reversed%}
+      {% for item in project %}
 	  {% if item.degree == 'BSc.' %}
         <tr>
           <td>
