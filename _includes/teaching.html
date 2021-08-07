@@ -8,7 +8,7 @@
 	    {% if item.guest == 'false' %}
         <tr class="flex">
           <td>
-              {{ item.title }} <br/>
+              [{{ item.title }}] {{ item.name }} <br/>
 			  Topic: <a href="#">"{{ item.topic }}"</a>. 
 			<div class="content-links">
 			  {% if item.slides %}
@@ -39,7 +39,7 @@
 	    {% if item.guest == 'true' %}
         <tr class="flex">
           <td>
-              {{ item.title }} <br/>
+               [{{ item.title }}] {{ item.name }} <br/>
 			  Topic: <a href="#">"{{ item.topic }}"</a>. 
 			<div class="content-links">
 			  {% if item.slides %}
