@@ -1,21 +1,67 @@
 <div class="news">
-  <h2>Invited talks</h2>
-  {% if site.teaching  %}
+  <h2>Cyber Security Lecture Series</h2>
+  {% if site.courses  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
-      {% assign talk = site.teaching %}
-      {% for item in talk reversed%}
+      {% assign lectures = site.courses %}
+      {% for item in lectures%}
         <tr>
-          <th scope="row" class="col-md-1">{{ item.date | date: "%m-%Y" }}</th>
+          <th scope="row" class="col-md-1">{{ item.title }}</th>
           <td class="col-md-10">
-              <em><a href="#">{{ item.title }}</a></em> at {{item.venue}}. 
+              <em><a href="#">{{ item.topic }}</a></em>. <br/>
+			  <span class="lec-years">[{{item.years}}]</span> 
+			<span class="content-links">
 			  {% if item.slides %}
 				  {% if item.slides contains '://' %}
 					<a href="{{ item.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
 				  {% else %}
-					<a href="{{ item.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+					<a href="{{ item.slides | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
 				  {% endif %}
 				{% endif %}
+			   {% if item.transcript %}
+				  {% if item.transcript contains '://' %}
+					<a href="{{ item.transcript }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Transcript</a>
+				  {% else %}
+					<a href="{{ item.transcript | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Transcript</a>
+				  {% endif %}
+				{% endif %}
+			    {% if item.video %}
+					<a href="{{ item.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Recording</a>
+				  {% endif %}
+				{% endif %}
+			</span>
+          </td>
+        </tr>
+      {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No lectures so far...</p>
+  {% endif %}
+</div>
+
+
+
+<div class="news">
+  <h2>Invited talks</h2>
+  {% if site.talks  %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      {% assign talk = site.talks %}
+      {% for item in talk reversed%}
+        <tr>
+          <th scope="row" class="col-md-1">{{ item.date | date: "%m-%Y" }}</th>
+          <td class="col-md-10">
+              <em><a href="#">"{{ item.title }}"</a></em> at {{item.venue}}.
+			<span class="content-links">  
+			  {% if item.slides %}
+				  {% if item.slides contains '://' %}
+					<a href="{{ item.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+				  {% else %}
+					<a href="{{ item.slides | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+				  {% endif %}
+				{% endif %}
+			</span>
           </td>
         </tr>
       {% endfor %}
