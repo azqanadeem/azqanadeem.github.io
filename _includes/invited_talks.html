@@ -4,12 +4,11 @@
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
       {% assign talk = site.teaching %}
-      {% for item in talk %}
+      {% for item in talk reversed%}
         <tr>
-		  <th>{{ item.title }}</th>
           <th scope="row">{{ item.date | date: "%m-%Y" }}</th>
           <td>
-              <a>{{ item.title }}</a> at {{ item.venue }}.
+              <em><a =href="">{{ item.title }}</a></em> at {{item.venue}}.
           </td>
         </tr>
       {% endfor %}
