@@ -30,9 +30,10 @@
 				{% endif %}
 			</div>
           </td>
+	 </tr>
 		  {% endif %}
-        </tr>
       {% endfor %}
+	  {% assign lectures = site.courses %}
 	  {% for item in lectures%}
 	    {% if item.guest %}
         <tr class="flex">
@@ -59,8 +60,8 @@
 				{% endif %}
 			</div>
           </td>
+		 </tr>
 		  {% endif %}
-        </tr>
       {% endfor %}
       </table>
     </div>
