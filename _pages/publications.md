@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /research/
 title: Research
 description: See updated list on Google Scholar.
 years: [2018, 2019, 2020,2021]
