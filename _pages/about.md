@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description:
+description: :email: [firstname].[lastname]@tudelft.nl
 
 profile:
   align: right
