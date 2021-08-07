@@ -18,7 +18,7 @@ nav: true
 		{% bibliography_count -f papers -q @*[kind={{cat}} && year={{y}}]* %}
 		{%- endcapture -%}
 
-		{% if {{citecount}} != "0"  %}
+		{% if citecount != "0"  %}
 			<h2 class="year">{{y}}</h2>
 			{% bibliography -f papers -q @*[kind={{cat}} && year={{y}}]* %}
 		{% endif %}
