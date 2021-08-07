@@ -83,8 +83,9 @@
   <h4>Thesis Supervision</h4>
   {% if site.supervise  %}
     <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-      <tr><th>Master theses</th></tr>
+      <h6>Master theses</h6>
+	  <table class="table table-sm table-borderless">
+      
 	  {% assign project = site.supervise %}
       {% for item in project %}
 	  {% if item.degree == 'MSc.' %}
@@ -97,7 +98,9 @@
         </tr>
 		{% endif %}
       {% endfor %}
-	  <tr><th>Bachelor theses</th></tr>
+	  </table>
+	  <h6> Bachelor theses</h6>
+	  <table class="table table-sm table-borderless">
       {% for item in project %}
 	  {% if item.degree == 'BSc.' %}
         <tr>
