@@ -6,9 +6,9 @@
       {% assign talk = site.teaching %}
       {% for item in talk reversed%}
         <tr>
-          <th scope="row">{{ item.date | date: "%m-%Y" }}</th>
+          <th scope="row">{{ item.date | date: "%-m-%y" }}</th>
           <td>
-              <em><a =href="">{{ item.title }}</a></em> at {{item.venue}}.
+              <em><a href="#">{{ item.title }}</a></em> at {{item.venue}}.
           </td>
         </tr>
       {% endfor %}
