@@ -17,7 +17,7 @@
 				  {% else %}
 					<a href="{{ item.slides | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
 				  {% endif %}
-				{% endif %}
+			   {% endif %}
 			   {% if item.transcript %}
 				  {% if item.transcript contains '://' %}
 					<a href="{{ item.transcript }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Transcript</a>
@@ -27,7 +27,6 @@
 				{% endif %}
 			    {% if item.video %}
 					<a href="{{ item.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Recording</a>
-				  {% endif %}
 				{% endif %}
 			</span>
           </td>
