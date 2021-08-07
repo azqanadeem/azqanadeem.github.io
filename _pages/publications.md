@@ -4,7 +4,7 @@ permalink: /publications/
 title: Research
 description: 
 years: [2018, 2019, 2020,2021]
-categories: ['Workshops', 'Chapters', 'Posters']
+categories: ['Conferences and Symposia', 'Workshops', 'Chapters', 'Posters']
 nav: true
 ---
 
