@@ -4,9 +4,8 @@
       <table class="table table-sm table-borderless">
       {% assign talk = site.talks %}
       {% for item in talk reversed%}
-        <tr>
-          <th scope="row" class="col-md-1">{{ item.date | date: "%m-%Y" }}</th>
-          <td class="col-md-10">
+        <tr class="flex">
+          <td>
               <a href="#">"{{ item.title }}"</a> at <em>{{item.venue}}</em>.
 			<div class="content-links">  
 			  {% if item.slides %}
@@ -18,6 +17,7 @@
 				{% endif %}
 			</div>
           </td>
+		  <td scope="row" class="lec-years">{{ item.date | date: "%m-%Y" }}</td>
         </tr>
       {% endfor %}
       </table>
