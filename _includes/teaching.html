@@ -1,5 +1,5 @@
 <div class="news">
-  <h4>Cyber Security Lecture Series</h4>
+  <h4 class="main-name  font-weight-bolder">Cyber Security Lecture Series</h4>
   {% if site.courses  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
@@ -80,10 +80,10 @@
 <hr/>
 
 <div class="news">
-  <h4>Thesis Supervision</h4>
+  <h4 class="main-name  font-weight-bolder">Thesis Supervision</h4>
   {% if site.supervise  %}
     <div class="table-responsive">
-      <h6>Master theses</h6>
+      <h6 class="font-weight-bolder">Master theses</h6>
 	  <table class="table table-sm table-borderless">
       
 	  {% assign project = site.supervise %}
@@ -99,7 +99,7 @@
 		{% endif %}
       {% endfor %}
 	  </table>
-	  <h6> Bachelor theses</h6>
+	  <h6 class=" font-weight-bolder"> Bachelor theses</h6>
 	  <table class="table table-sm table-borderless">
       {% for item in project %}
 	  {% if item.degree == 'BSc.' %}

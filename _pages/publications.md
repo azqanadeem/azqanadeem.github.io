@@ -11,7 +11,7 @@ nav: true
 <div class="publications">
 
 {% for cat in page.categories  %}
-	<h4>{{cat}}</h4>
+	<h4 class="main-name font-weight-bolder">{{cat}}</h4>
 	{% for y in page.years reversed  %}
 		{%- capture citecount -%}
 		{% bibliography_count -f papers -q @*[kind={{cat}} && year={{y}}]* %}
