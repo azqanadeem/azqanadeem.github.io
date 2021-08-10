@@ -11,7 +11,7 @@ nav: true
 			<div class="card hoverable">
 				<div class="row g-0">
 					<div class="card-img col-md-6">
-						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/sc1.jpg' | prepend: '/assets/img/' | relative_url }}">
+						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/1.jpg' | prepend: '/assets/img/' | relative_url }}">
 						<div class="card-body">
 							<p class="card-text">Place, year</p>
 						</div>
@@ -24,7 +24,7 @@ nav: true
 			<div class="card hoverable">
 				<div class="row g-0">
 					<div class="card-img col-md-6">
-						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/sc2.jpg' | prepend: '/assets/img/' | relative_url }}">
+						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/2.jpg' | prepend: '/assets/img/' | relative_url }}">
 						<div class="card-body">
 							<p class="card-text">Place, year</p>
 						</div>
@@ -37,7 +37,7 @@ nav: true
 			<div class="card hoverable">
 				<div class="row g-0">
 					<div class="card-img col-md-6">
-						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/sc3.jpg' | prepend: '/assets/img/' | relative_url }}">
+						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/3.jpg' | prepend: '/assets/img/' | relative_url }}">
 						<div class="card-body">
 							<p class="card-text">Place, year</p>
 						</div>
@@ -50,7 +50,7 @@ nav: true
 			<div class="card hoverable">
 				<div class="row g-0">
 					<div class="card-img col-md-6">
-						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/sc4.jpg' | prepend: '/assets/img/' | relative_url }}">
+						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/4.jpg' | prepend: '/assets/img/' | relative_url }}">
 						<div class="card-body">
 							<p class="card-text">Place, year</p>
 						</div>
@@ -63,7 +63,7 @@ nav: true
 			<div class="card hoverable">
 				<div class="row g-0">
 					<div class="card-img col-md-6">
-						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/sc5.jpg' | prepend: '/assets/img/' | relative_url }}">
+						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/5.jpg' | prepend: '/assets/img/' | relative_url }}">
 						<div class="card-body">
 							<p class="card-text">Place, year</p>
 						</div>
@@ -76,7 +76,7 @@ nav: true
 			<div class="card hoverable">
 				<div class="row g-0">
 					<div class="card-img col-md-6">
-						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/sc6.jpg' | prepend: '/assets/img/' | relative_url }}">
+						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/6.jpg' | prepend: '/assets/img/' | relative_url }}">
 						<div class="card-body">
 							<p class="card-text">Place, year</p>
 						</div>
@@ -89,7 +89,7 @@ nav: true
 			<div class="card hoverable">
 				<div class="row g-0">
 					<div class="card-img col-md-6">
-						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/sc7.jpg' | prepend: '/assets/img/' | relative_url }}">
+						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/7.jpg' | prepend: '/assets/img/' | relative_url }}">
 						<div class="card-body">
 							<p class="card-text">Place, year</p>
 						</div>
@@ -102,7 +102,7 @@ nav: true
 			<div class="card hoverable">
 				<div class="row g-0">
 					<div class="card-img col-md-6">
-						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/sc8.jpg' | prepend: '/assets/img/' | relative_url }}">
+						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/8.jpg' | prepend: '/assets/img/' | relative_url }}">
 						<div class="card-body">
 							<p class="card-text">Place, year</p>
 						</div>
@@ -115,7 +115,7 @@ nav: true
 			<div class="card hoverable">
 				<div class="row g-0">
 					<div class="card-img col-md-6">
-						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/sc9.jpg' | prepend: '/assets/img/' | relative_url }}">
+						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/9.jpg' | prepend: '/assets/img/' | relative_url }}">
 						<div class="card-body">
 							<p class="card-text">Place, year</p>
 						</div>
@@ -128,7 +128,7 @@ nav: true
 			<div class="card hoverable">
 				<div class="row g-0">
 					<div class="card-img col-md-6">
-						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/sc10.jpg' | prepend: '/assets/img/' | relative_url }}">
+						<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/10.jpg' | prepend: '/assets/img/' | relative_url }}">
 						<div class="card-body">
 							<p class="card-text">Place, year</p>
 						</div>
