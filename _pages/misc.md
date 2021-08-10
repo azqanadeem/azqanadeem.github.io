@@ -2,7 +2,7 @@
 layout: page
 permalink: /misc/
 title: Misc.
-description: ~~dQuote~~The earth has music for those who will listen~~dQuote~~ -- Reginald Holmes
+description: ~~oQuote~~The earth has music for those who will listen~~cQuote~~ ~~mdash~~ Reginald Holmes
 nav: true
 ---
 
