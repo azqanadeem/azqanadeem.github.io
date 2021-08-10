@@ -2,7 +2,7 @@
 layout: page
 permalink: /misc/
 title: Misc.
-description: ~~oQuote~~The earth has music for those who will listen~~cQuote~~ ~~mdash~~ Reginald Holmes
+description: ~~op~~ ~~oQuote~~The earth has music for those who will listen~~cQuote~~ ~~cl~~ ~~mdash~~ Reginald Holmes
 nav: true
 ---
 
@@ -67,7 +67,7 @@ nav: true
 		<div class="card-item col">
 			<div class="card hoverable">
 				<div class="card-img">
-					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/7.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
+					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/3.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
 						<p class="card-text">Place, year</p>
 					</div>
@@ -111,7 +111,7 @@ nav: true
 		<div class="card-item col">
 			<div class="card hoverable">
 				<div class="card-img">
-					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/3.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
+					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/7.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
 						<p class="card-text">Place, year</p>
 					</div>
