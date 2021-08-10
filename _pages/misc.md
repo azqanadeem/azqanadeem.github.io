@@ -14,7 +14,7 @@ nav: true
 				<div class="card-img">
 					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/1.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
-						<p class="card-text">Place, year</p>
+						<p class="card-text">Delft Netherlands 2021 [Winner of]</p>
 					</div>
 				</div>
 			</div>
@@ -25,7 +25,7 @@ nav: true
 				<div class="card-img">
 					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/4.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
-						<p class="card-text">Place, year</p>
+						<p class="card-text">Swiss national day, Lausanne, Switzerland 2017</p>
 					</div>
 				</div>
 			</div>
@@ -36,7 +36,7 @@ nav: true
 				<div class="card-img">
 					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/2.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
-						<p class="card-text">Place, year</p>
+						<p class="card-text">Hoek van Holland, Netherlands 2016</p>
 					</div>
 				</div>
 			</div>
@@ -47,7 +47,7 @@ nav: true
 				<div class="card-img">
 					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/8.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
-						<p class="card-text">Place, year</p>
+						<p class="card-text">Vik, Iceland 2017</p>
 					</div>
 				</div>
 			</div>
@@ -58,7 +58,7 @@ nav: true
 				<div class="card-img">
 					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/5.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
-						<p class="card-text">Place, year</p>
+						<p class="card-text">Strokkur, Iceland 2017</p>
 					</div>
 				</div>
 			</div>
@@ -69,7 +69,7 @@ nav: true
 				<div class="card-img">
 					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/3.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
-						<p class="card-text">Place, year</p>
+						<p class="card-text">Lugano, Switzerland 2017</p>
 					</div>
 				</div>
 			</div>
@@ -80,7 +80,7 @@ nav: true
 				<div class="card-img">
 					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/10.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
-						<p class="card-text">Place, year</p>
+						<p class="card-text">Utrecht, Netherlands 2016</p>
 					</div>
 				</div>
 			</div>
@@ -91,7 +91,7 @@ nav: true
 				<div class="card-img">
 					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/6.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
-						<p class="card-text">Place, year</p>
+						<p class="card-text">Tromsø, Norway 2018</p>
 					</div>
 				</div>
 			</div>
@@ -102,7 +102,7 @@ nav: true
 				<div class="card-img">
 					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/9.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
-						<p class="card-text">Place, year</p>
+						<p class="card-text">Tromsø, Norway 2018</p>
 					</div>
 				</div>
 			</div>
@@ -113,7 +113,7 @@ nav: true
 				<div class="card-img">
 					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/7.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
-						<p class="card-text">Place, year</p>
+						<p class="card-text">Islamabad, Pakistan 2016</p>
 					</div>
 				</div>
 			</div>
