@@ -14,7 +14,7 @@ nav: true
 				<div class="card-img">
 					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/1.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
-						<p class="card-text">Delft Netherlands 2021 [Winner of]</p>
+						<p class="card-text">Delft Netherlands 2021 <small>[&#127942; Award-winning entry for the photo competition during Open Education Week, TU Delft]</small></p>
 					</div>
 				</div>
 			</div>
