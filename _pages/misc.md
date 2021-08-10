@@ -14,7 +14,7 @@ nav: true
 				<div class="card-img">
 					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/1.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
-						<p class="card-text">Delft Netherlands 2021 <small>[&#127942; Award-winning entry for the photo competition during Open Education Week, TU Delft]</small></p>
+						<p class="card-text">Delft, Netherlands 2021 <small>[&#127942; Award-winning entry for the photo competition during Open Education Week, TU Delft]</small></p>
 					</div>
 				</div>
 			</div>
@@ -25,7 +25,7 @@ nav: true
 				<div class="card-img">
 					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/4.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
-						<p class="card-text">Swiss national day, Lausanne, Switzerland 2017</p>
+						<p class="card-text">Lausanne, Switzerland 2017 <small>[Fête nationale suisse]</small></p>
 					</div>
 				</div>
 			</div>
@@ -67,9 +67,9 @@ nav: true
 		<div class="card-item col">
 			<div class="card hoverable">
 				<div class="card-img">
-					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/3.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
+					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/7.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
-						<p class="card-text">Lugano, Switzerland 2017</p>
+						<p class="card-text">Islamabad, Pakistan 2016</p>
 					</div>
 				</div>
 			</div>
@@ -111,9 +111,9 @@ nav: true
 		<div class="card-item col">
 			<div class="card hoverable">
 				<div class="card-img">
-					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/7.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
+					<img class="img-fluid z-depth-1 rounded" src="{{ 'portfolio/3.jpg' | prepend: '/assets/img/' | relative_url }}" onContextMenu="return false;">
 					<div class="card-body">
-						<p class="card-text">Islamabad, Pakistan 2016</p>
+						<p class="card-text">Lugano, Switzerland 2017</p>
 					</div>
 				</div>
 			</div>
