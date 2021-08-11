@@ -6,7 +6,7 @@
       {% for item in talk reversed%}
         <tr class="flex">
 		  <td><i class="fa fa-caret-right main-name"></i></td>
-          <td>
+          <td class="col-md-11">
               <b><span class="main-name">"{{ item.title }}"</span></b> at <em>{{item.venue}}</em>.
 			<div class="content-links">  
 			  {% if item.slides %}
