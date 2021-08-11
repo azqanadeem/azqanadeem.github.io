@@ -4,12 +4,10 @@
       <table class="table table-sm table-borderless">
       {% assign newss = site.news | reverse %}
       {% for item in newss %}
-        <tr>
+        <tr class="flex">
           <th scope="row" class="col-md-1">{{ item.date |  date: "%m-%Y" }}</th>
-          <td class="col-md-10">
-            
+          <td class="col-md-11">
               {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-            
           </td>
         </tr>
       {% endfor %}
