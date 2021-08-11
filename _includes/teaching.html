@@ -92,7 +92,12 @@
         <tr>
 		  <td><i class="fa fa-caret-right main-name"></i></td>
           <td>
-              <b><a href="{{ item.link }}">"{{ item.topic }}"</a></b> by {{ item.student }}.
+              <b><a href>"{{ item.topic }}"</a></b> by {{ item.student }}. 
+			  <span class="content-links">
+				  {% if item.link contains '://' %}
+					<a href="{{ item.link }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Thesis</a>
+				  {% endif %}
+			</span>
           </td>
 		  <td scope="row" class="lec-years">{{ item.year }}</td>
         </tr>
@@ -106,7 +111,12 @@
         <tr>
 		  <td><i class="fa fa-caret-right main-name"></i></td>
           <td>
-              <b><a href="{{ item.link }}">"{{ item.topic }}"</a></b> by {{ item.student }}.
+              <b><a href>"{{ item.topic }}"</a></b> by {{ item.student }}. 
+			  <span class="content-links">
+				  {% if item.link contains '://' %}
+					<a href="{{ item.link }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Thesis</a>
+				  {% endif %}
+			</span>
           </td>
 		  <td scope="row" class="lec-years">{{ item.year }}</td>
         </tr>
