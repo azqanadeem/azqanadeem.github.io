@@ -4,12 +4,37 @@
       <table class="table table-sm table-borderless">
       {% assign newss = site.news | reverse %}
       {% for item in newss %}
+	  {% if item.award == true %}
         <tr>
           <th scope="row">{{ item.date |  date: "%m-%Y" }}</th>
           <td>
               {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
           </td>
         </tr>
+		{% endif %}
+      {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
+</div>
+
+<h1 class="post-title font-weight-bolder">News</h1>
+<div class="news">
+  {% if site.news  %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      {% assign newss = site.news | reverse %}
+      {% for item in newss %}
+		{% if item.award == false %}
+        <tr>
+          <th scope="row">{{ item.date |  date: "%m-%Y" }}</th>
+          <td>
+              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+          </td>
+        </tr>
+		{% endif %}
       {% endfor %}
       </table>
     </div>
