@@ -17,10 +17,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. candidate in the [Cyber Analytics Lab](https://cyber-analytics.nl/) at Delft University of Technology's [Cyber Security group](https://www.tudelft.nl/cybersecurity/), and my advisor is [Dr. ir. Sicco Verwer](https://www.tudelft.nl/staff/s.e.verwer/). 
+I am a Ph.D. candidate in the [Cyber Analytics Lab](https://cyber-analytics.nl/) at Delft University of Technology's [Cyber Security group](https://www.tudelft.nl/cybersecurity/), advised by [Dr. Sicco Verwer](https://www.tudelft.nl/staff/s.e.verwer/). 
 
-My research lies at the intersection of <b class="main-name">Machine Learning and Cyber Securtiy</b>. Specifically, I develop *explainable sequential machine learning pipelines to analyze network attacks*.
+My research lies at the intersection of <b class="main-name">Machine Learning and Cyber Securtiy</b>. I want to demystify machine learning for security analysts. To this aim, I develop *explainable sequential machine learning pipelines to analyze network attacks*.
 
-Next to research, I teach Cyber Security topics to BSc. (Computer Science and Engineering) students. The lecture slides can be found under [Cyber Security Lecture Series](https://azqa.github.io/teaching/).
+Next to research, I teach introductory Cyber Security to BSc. (Computer Science and Engineering) students. The teaching material can be found under [Cyber Security Lecture Series](https://azqa.github.io/teaching/).
 
-Outside of work, I love traveling and landscape photography. I enjoy discussions about human psychology, devious behavior, cats, imposter syndrome, and... well... cats.
+Outside of work, I love landscape photography and traveling. I enjoy discussions about human psychology, devious behavior, cats, imposter syndrome, and... well... cats.
