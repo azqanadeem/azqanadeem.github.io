@@ -12,7 +12,7 @@ nav: true
 <div class="publications">
 
 {% for cat_ in page.categories  %}
-	{% assign ind = forloop.index %}
+	{% assign ind = (forloop.index -1) %}
 
 	{%- capture cat -%}
 	{{ page.catprint[ind] }}
@@ -21,12 +21,12 @@ nav: true
 	<h4 class="font-weight-bolder">{{cat}}</h4>
 	{% for y in page.years reversed  %}
 		{%- capture citecount -%}
-		{% bibliography_count -f papers -q @*[kind={{cat}} && year={{y}}]* %}
+		{% bibliography_count -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
 		{%- endcapture -%}
 
 		{% if citecount != "0"  %}
 			<h2 class="year">{{y}}</h2>
-			{% bibliography -f papers -q @*[kind={{cat}} && year={{y}}]* %}
+			{% bibliography -f papers -q @*[kind={{cat_}} && year={{y}}]* %}
 		{% endif %}
 	{% endfor %}
 {% endfor %}
