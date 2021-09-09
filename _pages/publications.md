@@ -5,13 +5,20 @@ title: Publications
 description: See updated list on Google Scholar.
 years: [2018, 2019, 2020,2021]
 categories: ['Conferences and Symposia', 'Workshops', 'Chapters', 'Posters']
+catprint: ['Conferences', 'Workshops', 'Book Chapters', 'Posters']
 nav: true
 ---
 
 <div class="publications">
 
-{% for cat in page.categories  %}
-	<h4 class="main-name font-weight-bolder">{{cat}}</h4>
+{% for cat_ in page.categories  %}
+	{% assign ind = forloop.index %}
+
+	{%- capture cat -%}
+	{{ page.catprint[ind] }}
+	{%- endcapture -%}
+	
+	<h4 class="font-weight-bolder">{{cat}}</h4>
 	{% for y in page.years reversed  %}
 		{%- capture citecount -%}
 		{% bibliography_count -f papers -q @*[kind={{cat}} && year={{y}}]* %}
