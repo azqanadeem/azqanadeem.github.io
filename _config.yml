@@ -138,6 +138,7 @@ keep_files:
 plugins:
   - jekyll-email-protect
   - jekyll-github-metadata
+  - jekyll-regex-replace
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll/scholar
