@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /news/
-title: Awards
+title: News
 description: 
 nav: true
 ---
