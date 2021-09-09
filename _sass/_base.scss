@@ -10,6 +10,7 @@ p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
 
 a, table.table a {
   color: var(--global-theme-color);
+  font-weight: 400;
   &:hover {
     color: var(--global-theme-color);
     text-decoration: underline;
@@ -485,9 +486,9 @@ footer.sticky-bottom {
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
-          &:hover {
-            color: var(--global-theme-color);
-            border-color: var(--global-theme-color);
+          &:hover { 
+            color: var(--global-bg-color);
+            background-color: var(--global-theme-color);
           }
         }
       }
