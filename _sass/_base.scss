@@ -8,7 +8,7 @@ p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
 }
 
-a, table.table a {
+a, table.table a, .post-description em  {
   color: var(--global-theme-color);
   font-weight: 400;
   &:hover {
