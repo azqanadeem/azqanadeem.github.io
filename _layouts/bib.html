@@ -144,7 +144,7 @@
     <!-- Hidden bibtex block -->
     {% if entry.bibtex_show %}
     <div class="bibtex hidden">
-      {% highlight bibtex %}{{ entry.bibtex | regex_replace: 'selected={*}', '' }}{% endhighlight %}
+      {% highlight bibtex %}{{ entry.bibtex | regex_replace: 'selected=\{*\}', '' }}{% endhighlight %}
     </div>
     {% endif %}
   </div>
