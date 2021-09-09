@@ -145,7 +145,7 @@
     {% if entry.bibtex_show %}
     <div class="bibtex hidden">
       {% highlight bibtex %}
-	  {{ entry.bibtex | regex_replace: "selected=", "sdf" }}
+	  {{ entry.bibtex }}
 	  {% endhighlight %}
     </div>
     {% endif %}
