@@ -5,7 +5,7 @@ title: Publications
 description: See updated list on Google Scholar.
 years: [2018, 2019, 2020,2021]
 categories: ['Conferences and Symposia', 'Workshops', 'Chapters', 'Posters']
-catprint: ['Conferences', 'Workshops', 'Book Chapters', 'Posters']
+catprint: ['', 'Conferences', 'Workshops', 'Book Chapters', 'Posters']
 nav: true
 ---
 
@@ -15,7 +15,7 @@ nav: true
 	{% assign ind = forloop.index %}
 
 	{%- capture cat -%}
-	{{ page.catprint[ind-1] }}
+	{{ page.catprint[ind] }}
 	{%- endcapture -%}
 	
 	<h4 class="font-weight-bolder">{{cat}}</h4>
