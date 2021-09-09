@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. candidate in the [Cyber Analytics Lab](https://cyber-analytics.nl/) at [Delft University of Technology](https://www.tudelft.nl/)'s [Cyber Security group](https://www.tudelft.nl/cybersecurity/), advised by [Dr. Sicco Verwer](https://www.tudelft.nl/staff/s.e.verwer/). 
+I am a Ph.D. candidate in the [Cyber Analytics Lab](https://cyber-analytics.nl/) (Cyber Security group) at [Delft University of Technology](https://www.tudelft.nl/), advised by [Dr. Sicco Verwer](https://www.tudelft.nl/staff/s.e.verwer/). 
 
 My research interests are in <b class="main-name">[Machine Learning for Cyber Security]</b>. I aim to demystify machine learning for security analysts. To this end, I develop *explainable sequential machine learning pipelines* for several cybersecurity analysis tasks.
 
