@@ -92,7 +92,8 @@
         <tr>
 		  <td><i class="fa fa-caret-right main-name"></i></td>
           <td>
-              <b><span class="main-name">"{{ item.topic }}"</span></b> by {{ item.student }}. 
+              <b><span class="main-name">"{{ item.topic }}"</span></b>. <br/>
+			  {{ item.student }} 
 			  <span class="content-links">
 				  {% if item.link contains '://' %}
 					<a href="{{ item.link }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Thesis</a>
@@ -111,7 +112,8 @@
         <tr>
 		  <td><i class="fa fa-caret-right main-name"></i></td>
           <td>
-              <b><span class="main-name">"{{ item.topic }}"</span></b> by {{ item.student }}. 
+              <b><span class="main-name">"{{ item.topic }}"</span></b>. <br/>
+			  {{ item.student }} 
 			  <span class="content-links">
 				  {% if item.link contains '://' %}
 					<a href="{{ item.link }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Thesis</a>
