@@ -76,6 +76,9 @@
       {% if entry.year %}
         {{entry.year}}
       {% endif %}
+	  {% if entry.forthcoming %}
+        <em> (Forthcoming)</em>
+      {% endif %}
       </div>
     {% endif %}
 
