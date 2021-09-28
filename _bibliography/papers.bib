@@ -1,15 +1,29 @@
 ---
 ---
 
-@inproceedings{nadeem2021intelligent,
+@article{nadeem2021sage3,
+  title={Alert-driven Attack Graph Generation using S-PDFA},
+  author={Nadeem, Azqa and Verwer, Sicco and Moskal, Stephen and Yang, Shanchieh J},
+  journal={IEEE Transcations on Dependable and Secure Computing: Special Issue on XAI-CTI},
+  year={2021},
+  abstract={Ideal cyber threat intelligence (CTI) includes insights into attacker strategies that are specific to a network under observation. Such CTI currently requires extensive expert input for obtaining, assessing, and correlating system vulnerabilities into a graphical representation, often referred to as an attack graph (AG). Instead of deriving AGs based on system vulnerabilities, this work advocates the direct use of intrusion alerts. We formally define the explainable sequence learning pipeline, called SAGE, that constructs AGs from intrusion alerts without a priori expert knowledge. SAGE exploits the temporal and probabilistic dependence between alerts in a suffix-based probabilistic deterministic finite automaton (S-PDFA) — a model that brings infrequent severe alerts into the spotlight and summarizes paths leading to them. Attack graphs are extracted from the model on a per-victim, per-objective basis. SAGE is thoroughly evaluated on three open-source intrusion alert datasets collected through security testing competitions in order to analyze distributed multi-stage attacks. SAGE compresses over 330k alerts into 93 AGs that show how specific attacks transpired. The AGs are succinct, interpretable, and provide directly relevant insights into strategic differences and fingerprintable paths. They even show that attackers tend to follow shorter paths after they have discovered a longer one in 84.5% of the cases.},
+  preprint={papers/SAGE-for-TDSC.pdf},
+  abbr={TDSC},
+  code={https://github.com/tudelft-cda-lab/SAGE},
+  kind={Journal},
+  selected={true},
+  forthcoming={true}
+}
+
+@article{nadeem2021intelligent,
   title={Intelligent Malware Defenses},
   author={Nadeem, Azqa and Rimmer, Vera and Joosen, Wouter and Verwer, Sicco},
-  booktitle={AI+Sec: Artificial Intelligence and Security},
+  journal={AI+Sec: Artificial Intelligence and Security},
   editor="Picek, Stjepan and Batina, Lejla and Baeck, Thomas and Buhan, Ileana and Guilley, Sylvain", 
 	year={2021},
 	publisher="Springer International Publishing",
 	abstract="With rapidly evolving threat landscape surrounding malware, intelligent defenses based on machine learning are paramount. In this chapter, we review the literature proposed in the past decade and identify the state-of-the-art in various related research directions — malware detection, malware analysis, adversarial malware, and malware author attribution. We discuss challenges that emerge when machine learning is applied to malware. We also identify the key issues that need to be addressed by the research community in order to further deepen and systematize research in the malware domain.",
-  pdf={AISec3-Intelligent-malware-defenses.pdf},
+  preprint={papers/AISec3-Intelligent-malware-defenses.pdf},
   selected={true},
   abbr={AI+Sec},
   kind={Chapters},
@@ -17,16 +31,16 @@
 }
 
 
-@article{nadeem2021sage2,
+@inproceedings{nadeem2021sage2,
   title={SAGE: Intrusion Alert-driven Attack Graph Extractor},
   author={Nadeem, Azqa and Verwer, Sicco and Yang, Shanchieh J},
-  journal={Proceedings of the 18th IEEE Symposium on Visualization for Cyber Security (VizSec)},
+  booktitle={Proceedings of the 18th IEEE Symposium on Visualization for Cyber Security (VizSec)},
   year={2021},
   abstract={Attack graphs (AG) are used to assess pathways availed by cyber adversaries to penetrate a network. State-of-the-art approaches for AG generation focus mostly on deriving dependencies between system vulnerabilities based on network scans and expert knowledge. In real-world operations however, it is costly and ineffective to rely on constant vulnerability scanning and expert-crafted AGs. We propose to automatically learn AGs based on actions observed through intrusion alerts, without prior expert knowledge. Specifically, we develop an unsupervised sequence learning system, SAGE, that leverages the temporal and probabilistic dependence between alerts in a suffix-based probabilistic deterministic finite automaton (S-PDFA) – a model that accentuates infrequent severe alerts and summarizes paths leading to them. AGs are then derived from the
 S-PDFA on a per-objective, per-victim basis. Tested with intrusion alerts collected through Collegiate Penetration Testing Competition, SAGE compresses over 330k alerts into 93 AGs. These AGs reflect the strategies used by the participating teams. The AGs are succinct, interpretable, and capture behavioral dynamics, e.g., that attackers will often follow shorter paths to re-exploit objectives.},
   abbr={VizSec},
   code={https://github.com/tudelft-cda-lab/SAGE},
-  pdf={SAGE-for-VizSec.pdf},
+  preprint={papers/SAGE-for-VizSec.pdf},
   selected={true},
   kind={Conferences and Symposia},
   forthcoming={true}
@@ -45,10 +59,10 @@ S-PDFA on a per-objective, per-victim basis. Tested with intrusion alerts collec
   kind={Workshops},
 }
 
-@inproceedings{nadeem2021beyond,
+@article{nadeem2021beyond,
   title={Beyond Labeling: Using Clustering to Build Network Behavioral Profiles of <br/>Malware Families},
   author={Nadeem, Azqa and Hammerschmidt, Christian and Ganan, Carlos H and Verwer, Sicco},
-  booktitle={Malware Analysis Using Artificial Intelligence and Deep Learning},
+  journal={Malware Analysis Using Artificial Intelligence and Deep Learning},
   editor="Stamp, Mark and Alazab, Mamoun and Shalaginov, Andrii", 
 	year={2021},
 	publisher="Springer International Publishing",
@@ -116,39 +130,43 @@ isbn="978-3-030-65965-3",
   kind={Workshops},
 }
 
-@inproceedings{postermalpaca,
+@article{postermalpaca,
 author={Nadeem, Azqa and Ganan, Carlos H and Verwer, Sicco},
-booktitle={Nordic Conference on Secure IT Systems},
-title={Poster: Clustering Malware's Network Behavior using Simple Sequential <br/>Features},
+journal={Nordic Conference on Secure IT Systems},
+title={Clustering Malware's Network Behavior using Simple Sequential <br/>Features},
 year={2018},
 month={November},
 abbr={Nordsec},
-abstract="Malware attacks are becoming more elusive and powerful. The sheer number of malware samples that are detected on a daily basis is exceeding our capacity to analyze them. In addition, developing malware variants is extremely cheap for attackers because of the availability of various obfuscation tools. These variants can be grouped in malware families based on the similarity of behavioral information retrieved from their system and network activities. Available research suggests that the network traffic generated by malware shows a different aspect of its behavior. This may also be considered as its core behavior since it captures the interaction with its developer. In order to capture such interactions, techniques using Deep Packet Inspection (DPI) are becoming increasingly more common due to their high detection rates. However, DPI has severe privacy implications as it involves inspecting payloads of the network traffic. DPI also does not work well in the presence of encrypted traffic. We propose an exploratory study, the aim of which is to characterize and cluster malware behavior using high-level, non-privacy-invasive, sequential features extracted from its network activity. The key intuition behind the proposed solution is that if the underlying infrastructure of distinct malware samples is similar, the order in which they carry out their objectives should also be similar. We expect to see this similarity in high-level features that do not invade privacy. To this end, we develop a systematic framework using existing techniques that clusters similar network activities of malware samples using sequences of high-level features (i.e. packet sizes, interval between packets, source and destination port numbers) instead of statistical features. The results of this research show that sequence clustering allows flexible and robust clusters, as opposed to using statistical features. A detailed cluster content analysis shows that the clusters capture attacking capabilities of malware, such as port scans. They also identify the reuse of the same C&C servers by multiple malware families. In addition, an analysis of distinct network activities exhibited by malware families helps identify unique behaviors associated to particular families. These can be used to extract behavioral signatures for Intrusion Detection Systems. Lastly, clusters also capture common behaviors exhibited by multiple malware families. These common behaviors may suggest author collaboration. The resulting insights obtained from the proposed framework can prove to be valuable threat intelligence information for malware and network analysts.",
 kind={Posters},
+poster={proposals/nordsec_proposal.pdf},
+
 }
 
-@inproceedings{postersbm,
+@article{postersbm,
 author={Nadeem, Azqa and Roeling, Mark P and Verwer, Sicco},
-booktitle={Cybersec & AI connected conference},
-title={Poster: Clustering Connections and Hosts using a Hybrid Sequential Approach},
+journal={Cybersec & AI connected conference},
+title={Clustering Connections and Hosts using a Hybrid Sequential Approach},
 year={2019},
 month={October},
 volume={},
 abbr={Cybersec&AI},
-abstract="The data-volumes generated by inter-connected devices present a challenge for network analysis. Since the number of connections can far exceed the number of hosts, analysis often requires data reduction. To this end, a plethora of network clustering algorithms have been proposed, but studies usually model either hosts or connections. We propose a combination of connection-clustering and host-classification by using two popular state-of-the-art unsupervised clustering algorithms, Hierarchical Density-based Clustering (HDBScan) and Stochastic BlockModels (SBM). We used data from the Stratosphere IPS project (CTU-Malware-Capture-Botnet-91) that includes malicious and benign hosts. Network traffic from different hosts was split into unidirectional connections (a ! b). Each connection was represented by 4 sequential features to ensure the capture of temporal information (packet size, inter-arrival time, source and destination ports). An optimized packets-threshold was used to ensure effective behavioral modeling, after which the filtered connections were clustered with HDBScan. The resulting class labels (for every connection) were fed into a SBM, using the posterior probability as a covariate to accommodate imperfect class assignment. The SBM was also fitted on the raw features to investigate the merit of using HDBScan output as SBM-input. Model  fitting commended a 5-class solution for connection-clustering and 4-class solution for host-clustering. Applying the SBM directly to features resulted in a 2-class solution, indicating that connection clustering increased SBM sensitivity. Misclassification of the nodes was also lower in the combined method. Further investigation of class assignment revealed clusters of behaviorally similar connections. Conjointly, 88.5% of nodes were labelled correctly, albeit that classification was less accurate for benign hosts.
-Conclusively, this study provides a rationale for using clustered connections as input for host-classification in this context, by sequential modeling of two powerful clustering methods, without the need for labelled data.",
 kind={Posters},
+poster={proposals/cybersecprague_proposal.pdf},
+
 }
 
 @inproceedings{postersage,
 author={Nadeem, Azqa and Verwer, Sicco and Moskal, Stephen and Yang, Shanchieh J},
 doi={10.1145/3460120.3485361},
 abbr={CCS},
+abstract="Attack graphs (AG) are a popular area of research that display all the paths an attacker can exploit to penetrate a network. Existing techniques for AG generation rely heavily on expert input regarding vulnerabilities and network topology. In this work, we advocate the use of AGs that are built directly using the actions observed through intrusion alerts, without prior expert input.We have developed an unsupervised visual analytics system, called SAGE, to learn alert-driven attack graphs.We show how these AGs (i) enable forensic analysis of prior attacks, and (ii) enable proactive defense by providing relevant threat intelligence regarding attacker strategies. We believe that alert-driven AGs can play a key role in AI-enabled cyber threat intelligence as they open up new avenues for attacker strategy analysis whilst reducing analyst workload.",
 booktitle={Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security},
-title={Poster: Enabling Visual Analytics via Alert-driven Attack Graphs},
+title={Enabling Visual Analytics via Alert-driven Attack Graphs},
 year={2021},
 month={November},
-abstract="Attack graphs (AG) are a popular area of research that display allthe paths an attacker can exploit to penetrate a network. Existing techniques for AG generation rely heavily on expert input regarding vulnerabilities and network topology. In this work, we advocate to build AGs directly using actions observed through intrusion alerts, without prior expert knowledge. We develop an unsupervised sequence learning system, called SAGE, to construct alert-driven attack graphs. We show how these AGs (i) enable forensic analysis of prior attacks, and (ii) enable proactive defense by providing relevant threat intelligence regarding attacker strategies. We believe that alert-driven AGs can play a key role in AI-enabled cyber threat intelligence as they open up new avenues for attacker strategy analysis whilst reducing analyst workload.",
 kind={Posters},
-  forthcoming={true}
+  forthcoming={true},
+  poster={proposals/ccs_proposal.pdf},
+
+  
 }
