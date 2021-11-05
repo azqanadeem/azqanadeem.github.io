@@ -1,0 +1,69 @@
+<div class="news">
+<h4 class="font-weight-bolder">Chair/Organizing Committee</h4>
+  {% if site.service  %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      {% assign orgg = site.service | reverse %}
+      {% for item in orgg %}
+	  {% if item.org == true %}
+        <tr>
+          <td>{{ item.content }} </td>
+		  <td scope="row" class="lec-years" >{{ item.years }}</td>
+        </tr>
+		{% endif %}
+      {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>Nothing here...</p>
+  {% endif %}
+</div>
+
+<hr/>
+
+<div class="news">
+<h4 class="font-weight-bolder">Reviewer/Sub-reviewer</h4>
+  {% if site.service  %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      {% assign revieww = site.service | reverse %}
+      {% for item in revieww %}
+	  {% if item.review == true %}
+        <tr>
+          <td>{{ item.content }} </td>
+		  <td scope="row" class="lec-years" >{{ item.years }}</td>
+        </tr>
+		{% endif %}
+      {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>Nothing here...</p>
+  {% endif %}
+</div>
+
+<hr/>
+
+<div class="news">
+<h4 class="font-weight-bolder">Mentorship</h4>
+  {% if site.service  %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      {% assign mentorr = site.service | reverse %}
+      {% for item in mentorr %}
+	  {% if item.mentor == true %}
+        <tr>
+          <td>{{ item.content }} </td>
+		  <td scope="row" class="lec-years" >{{ item.years }}</td>
+        </tr>
+		{% endif %}
+      {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>Nothing here...</p>
+  {% endif %}
+</div>
+
+<hr/>
+

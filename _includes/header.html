@@ -58,6 +58,15 @@
                 {% endif %}
               </a>
           </li>
+		  <!-- Service -->
+		  <li class="nav-item {% if page.title == 'Academic Service' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/service/' | relative_url }}">
+                Talks
+                {% if page.title == "Academic Service" %}
+                <span class="sr-only">(current)</span>
+                {% endif %}
+              </a>
+          </li>
 		  <!-- News -->
 		  <li class="nav-item {% if page.title == 'News' %}active{% endif %}">
               <a class="nav-link" href="{{ '/news/' | relative_url }}">
