@@ -2,7 +2,7 @@
 layout: page
 permalink: /cv/
 title: CV
-description:
+description: An excerpt from my CV.
 nav: true
 ---
 
