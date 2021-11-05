@@ -5,4 +5,4 @@ inline: true
 award: false
 ---
 
-Co-organizing the [Cybersecurity Next Generation](https://csng.nl/?q=event) (CSng 2021) workshop. :school: 
+Co-chairing the [Cybersecurity Next Generation](https://csng.nl/?q=event) (CSng 2021) workshop. :school: 

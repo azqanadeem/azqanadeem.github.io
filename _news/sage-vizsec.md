@@ -5,4 +5,4 @@ inline: true
 award: false
 ---
 
-Our paper on SAGE has been accepted at VizSec as a short paper! :scroll:
+Our paper on SAGE has been accepted at [VizSec](https://vizsec.org/vizsec2021/)! :scroll:

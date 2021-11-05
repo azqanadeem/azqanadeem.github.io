@@ -5,4 +5,4 @@ inline: true
 award: false
 ---
 
-Presenting our paper on SAGE at the [KDD AI4Cyber workshop](https://ai4cyber-kdd.com/). :scroll:
+Presenting our work on SAGE at the [KDD AI4Cyber workshop](https://ai4cyber-kdd.com/). :scroll:
