@@ -8,7 +8,8 @@
 	  {% if item.org == true %}
         <tr class="flex">
 		  <td><i class="fa fa-caret-right main-name"></i></td>
-          <td>{{ item.content | remove: '<p>' | remove: '</p>'}} <span class="lec-years">[{{ item.years | remove: '<p>' | remove: '</p>'}}]</span></td>
+          <td>{{ item.content | remove: '<p>' | remove: '</p>'}}</td>
+		  <td class="lec-years">{{ item.years | remove: '<p>' | remove: '</p>'}}</td>
         </tr>
 		{% endif %}
       {% endfor %}
@@ -22,7 +23,7 @@
 <hr/>
 
 <div class="news">
-<h4 class="font-weight-bolder">Reviewer/Sub-reviewer</h4>
+<h4 class="font-weight-bolder">(Sub-)Reviewer</h4>
   {% if site.service  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
@@ -31,7 +32,8 @@
 	  {% if item.review == true %}
         <tr class="flex">
 		  <td><i class="fa fa-caret-right main-name"></i></td>
-          <td>{{ item.content | remove: '<p>' | remove: '</p>'}} <span class="lec-years">[{{ item.years | remove: '<p>' | remove: '</p>'}}]</span></td>
+          <td>{{ item.content | remove: '<p>' | remove: '</p>'}}</td>
+		  <td class="lec-years">{{ item.years | remove: '<p>' | remove: '</p>'}}</td>
         </tr>
 		{% endif %}
       {% endfor %}
@@ -54,7 +56,8 @@
 	  {% if item.mentor == true %}
         <tr class="flex">
 		  <td><i class="fa fa-caret-right main-name"></i></td>
-          <td>{{ item.content | remove: '<p>' | remove: '</p>'}} <span class="lec-years">[{{ item.years | remove: '<p>' | remove: '</p>'}}] </span></td>
+          <td>{{ item.content | remove: '<p>' | remove: '</p>'}}</td>
+		  <td class="lec-years">{{ item.years | remove: '<p>' | remove: '</p>'}}</td>
         </tr>
 		{% endif %}
       {% endfor %}
