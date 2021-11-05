@@ -5,4 +5,4 @@ date: 2021-01-01
 review: true
 ---
 
-Annals of Mathematics and Artificial Intelligence (AMAI)
+Annals of Mathematics and Artificial Intelligence (AMAI) {2021}

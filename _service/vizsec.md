@@ -5,4 +5,4 @@ date: 2021-10-01
 review: true
 ---
 
-Symposium on Visualization for Cyber Security (VizSec)
+Symposium on Visualization for Cyber Security (VizSec) {2021}
