@@ -98,8 +98,6 @@ collections:
     output: true
   supervise:
     output: true
-  talks:
-    output: true
   service:
     output: true
 
