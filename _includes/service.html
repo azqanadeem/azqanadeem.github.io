@@ -3,12 +3,13 @@
   {% if site.service  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
-      {% assign orgg = site.service | reverse %}
-      {% for item in orgg %}
+      {% assign orgg = site.service %}
+      {% for item in orgg reversed %}
 	  {% if item.org == true %}
-        <tr>
-          <td>{{ item.content }} </td>
-		  <td scope="row" class="lec-years" >{{ item.years }}</td>
+        <tr class="flex">
+		  <td><i class="fa fa-caret-right main-name"></i></td>
+          <td class="col-md-11">{{ item.content }} </td>
+		  <td scope="row" class="lec-years col-md-1">{{ item.years }}</td>
         </tr>
 		{% endif %}
       {% endfor %}
@@ -26,12 +27,13 @@
   {% if site.service  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
-      {% assign revieww = site.service | reverse %}
-      {% for item in revieww %}
+      {% assign revieww = site.service %}
+      {% for item in revieww reversed %}
 	  {% if item.review == true %}
-        <tr>
-          <td>{{ item.content }} </td>
-		  <td scope="row" class="lec-years" >{{ item.years }}</td>
+        <tr class="flex">
+		  <td><i class="fa fa-caret-right main-name"></i></td>
+          <td class="col-md-11">{{ item.content }} </td>
+		  <td scope="row" class="lec-years col-md-1">{{ item.years }}</td>
         </tr>
 		{% endif %}
       {% endfor %}
@@ -49,12 +51,13 @@
   {% if site.service  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
-      {% assign mentorr = site.service | reverse %}
-      {% for item in mentorr %}
+      {% assign mentorr = site.service %}
+      {% for item in mentorr reversed %}
 	  {% if item.mentor == true %}
-        <tr>
-          <td>{{ item.content }} </td>
-		  <td scope="row" class="lec-years" >{{ item.years }}</td>
+        <tr class="flex">
+		  <td><i class="fa fa-caret-right main-name"></i></td>
+          <td class="col-md-11">{{ item.content }} </td>
+		  <td scope="row" class="lec-years col-md-1">{{ item.years }}</td>
         </tr>
 		{% endif %}
       {% endfor %}
