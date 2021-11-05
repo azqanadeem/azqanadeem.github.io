@@ -5,4 +5,4 @@ inline: true
 award: false
 ---
 
-Serving as a mentor for the iMentor workshop! :fairy:
+Serving as a mentor for the iMentor workshop! :fairy_woman:
