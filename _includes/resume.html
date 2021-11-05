@@ -1,0 +1,82 @@
+<div class="news">
+  <h4 class="font-weight-bolder">Education</h4>
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        <tr class="flex">
+		  <td><i class="fa fa-caret-right main-name"></i></td>
+          <td> Ph.D. Computer Science</td>
+		  <td> Delft University of Technology, NL  </td>
+		  <td scope="row" class="lec-years" >2018 - present</td>
+		</tr>
+		
+		<tr class="flex">
+		  <td><i class="fa fa-caret-right main-name"></i></td>
+          <td> MSc. Computer Science</td>
+		  <td> Delft University of Technology, NL  </td>
+		  <td scope="row" class="lec-years" >2016 - 2018</td>
+		</tr>
+		
+		<tr class="flex">
+		  <td><i class="fa fa-caret-right main-name"></i></td>
+          <td> BSc. Computer Science</td>
+		  <td> National University of Sciences &amp; Technology, PK  </td>
+		  <td scope="row" class="lec-years" >2011-2015</td>
+		</tr>
+      </table>
+    </div>
+</div>
+
+<hr/>
+
+<div class="news">
+  <h4 class="font-weight-bolder">Research Experience</h4>
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        <tr class="flex">
+		  <td><i class="fa fa-caret-right main-name"></i></td>
+          <td> Cybersecurity Visiting Student Researcher</td>
+		  <td> RIT, USA </td>
+		  <td scope="row" class="lec-years" >2020</td>
+		</tr>
+		
+		<tr class="flex">
+		  <td><i class="fa fa-caret-right main-name"></i></td>
+          <td> Research Intern</td>
+		  <td> EPFL, Switzerland</td>
+		  <td scope="row" class="lec-years" >2017</td>
+		</tr>
+		
+		<tr class="flex">
+		  <td><i class="fa fa-caret-right main-name"></i></td>
+          <td> Openlab Summer Student</td>
+		  <td> CERN, Switzerland</td>
+		  <td scope="row" class="lec-years" >2015</td>
+		</tr>
+      </table>
+    </div>
+</div>
+
+<hr/>
+
+<div class="news">
+<h4 class="font-weight-bolder">Honors/Awards</h4>
+  {% if site.news  %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      {% assign newss = site.news | reverse %}
+      {% for item in newss %}
+	  {% if item.award == true %}
+        <tr>
+          <td>
+              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+          </td>
+		  <td scope="row" class="lec-years">{{ item.date |  date: "%m-%Y" }}</td>
+        </tr>
+		{% endif %}
+      {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
+</div>
