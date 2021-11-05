@@ -5,4 +5,4 @@ inline: true
 award: false
 ---
 
-Serving as a mentor for the iMentor workshop! :woman_teacher:
+Serving as a mentor for the [iMentor workshop](https://sites.google.com/vt.edu/imentor/) at ACM-CCS. :woman_teacher:

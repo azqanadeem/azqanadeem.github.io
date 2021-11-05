@@ -5,4 +5,4 @@ inline: true
 award: false
 ---
 
-Presenting a poster at the [Machine Learning Summer School](http://ai.ntu.edu.tw/mlss2021/)! :scroll:
+Presenting a poster about SAGE at the [Machine Learning Summer School](http://ai.ntu.edu.tw/mlss2021/). :scroll:
