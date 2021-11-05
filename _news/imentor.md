@@ -5,4 +5,4 @@ inline: true
 award: true
 ---
 
-Got the iMentor student grant to attend ACM-CCS. :gift:
+Received the iMentor student grant to attend ACM-CCS. :gift:
