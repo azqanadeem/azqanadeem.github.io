@@ -8,7 +8,7 @@
 	  {% if item.org == true %}
         <tr class="flex">
 		  <td><i class="fa fa-caret-right main-name"></i></td>
-          <td>{{ item.content }} </td>
+          <td>{{ item.content | remove: '<p>' | remove: '</p>'}} </td>
         </tr>
 		{% endif %}
       {% endfor %}
@@ -31,7 +31,7 @@
 	  {% if item.review == true %}
         <tr class="flex">
 		  <td><i class="fa fa-caret-right main-name"></i></td>
-          <td>{{ item.content }} </td>
+          <td>{{ item.content | remove: '<p>' | remove: '</p>'}} </td>
         </tr>
 		{% endif %}
       {% endfor %}
@@ -54,7 +54,7 @@
 	  {% if item.mentor == true %}
         <tr class="flex">
 		  <td><i class="fa fa-caret-right main-name"></i></td>
-          <td>{{ item.content }} </td>
+          <td>{{ item.content | remove: '<p>' | remove: '</p>'}} </td>
         </tr>
 		{% endif %}
       {% endfor %}
