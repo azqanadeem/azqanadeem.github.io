@@ -1,8 +1,8 @@
 ---
 layout: post
-years: 2019
+years: {2019}
 date: 2019-02-01
 review: true
 ---
 
-International Symposium on Integrated Network Management (IFIP/IEEE IM) {2019}
+International Symposium on Integrated Network Management (IFIP/IEEE IM) 
