@@ -5,4 +5,4 @@ inline: true
 award: false
 ---
 
-Serving as a CV advisor at the TU Delft Career Centre! :fairy:
+Serving as a CV advisor at the TU Delft Career Centre! :woman_teacher:
