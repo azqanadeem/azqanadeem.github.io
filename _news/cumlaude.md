@@ -5,4 +5,4 @@ inline: true
 award: true
 ---
 
-Graduated Cum Laude and was in the top 3% of my class. :trophy:
+Completed MSc. with *Cum Laude* (top 3% of my class). :trophy: :mortar_board:
