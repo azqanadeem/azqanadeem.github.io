@@ -5,7 +5,7 @@ title: Publications
 description: See updated list on Google Scholar.
 years: [2018, 2019, 2020,2021]
 categories: ['Journal', 'Conferences and Symposia', 'Workshops', 'Chapters', 'Posters']
-catprint: ['', 'Journal', 'Conferences', 'Workshops', 'Book Chapters', 'Posters']
+catprint: ['', 'Journals', 'Conferences', 'Workshops', 'Book Chapters', 'Posters']
 nav: true
 ---
 
