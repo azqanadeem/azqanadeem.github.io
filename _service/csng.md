@@ -5,4 +5,4 @@ date: 2020-01-01
 org: true
 ---
 
-[Cyber Security Next Generation Workshop](https://csng.nl/?q=event) (CSng) 
+Co-chair, [Cyber Security Next Generation Workshop](https://csng.nl/?q=event) (CSng) 
