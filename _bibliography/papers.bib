@@ -7,28 +7,26 @@
   journal={IEEE Transcations on Dependable and Secure Computing},
   year={2021},
   abstract={Ideal cyber threat intelligence (CTI) includes insights into attacker strategies that are specific to a network under observation. Such CTI currently requires extensive expert input for obtaining, assessing, and correlating system vulnerabilities into a graphical representation, often referred to as an attack graph (AG). Instead of deriving AGs based on system vulnerabilities, this work advocates the direct use of intrusion alerts. We propose SAGE, an explainable sequence learning pipeline that automatically constructs AGs from intrusion alerts without a priori expert knowledge. SAGE exploits the temporal and probabilistic dependence between alerts in a suffix-based probabilistic deterministic finite automaton (S-PDFA) — a model that brings infrequent severe alerts into the spotlight and summarizes paths leading to them. Attack graphs are extracted from the model on a per-victim, per-objective basis. SAGE is thoroughly evaluated on three open-source intrusion alert datasets collected through security testing competitions in order to analyze distributed multi-stage attacks. SAGE compresses over 330k alerts into 93 AGs that show how specific attacks transpired. The AGs are succinct, interpretable, and provide directly relevant insights into strategic differences and fingerprintable paths. They even show that attackers tend to follow shorter paths after they have discovered a longer one in 84.5% of the cases.},
-  preprint={papers/SAGE-for-TDSC.pdf},
+  pdf={https://pure.tudelft.nl/ws/portalfiles/portal/100855752/SAGE_for_TDSC.pdf},
   abbr={TDSC},
   code={https://github.com/tudelft-cda-lab/SAGE},
   kind={Journal},
   selected={true},
-  forthcoming={true},
   slides=seminar-alert-driven-ags.pdf
 }
 
 @article{nadeem2021intelligent,
   title={Intelligent Malware Defenses},
   author={Nadeem, Azqa and Rimmer, Vera and Joosen, Wouter and Verwer, Sicco},
-  journal={AI+Sec: Artificial Intelligence and Security},
+  journal={Security and Artificial Intelligence},
   editor="Picek, Stjepan and Batina, Lejla and Baeck, Thomas and Buhan, Ileana and Guilley, Sylvain", 
-	year={2021},
+	year={2022},
 	publisher="Springer International Publishing",
 	abstract="With rapidly evolving threat landscape surrounding malware, intelligent defenses based on machine learning are paramount. In this chapter, we review the literature proposed in the past decade and identify the state-of-the-art in various related research directions — malware detection, malware analysis, adversarial malware, and malware author attribution. We discuss challenges that emerge when machine learning is applied to malware. We also identify the key issues that need to be addressed by the research community in order to further deepen and systematize research in the malware domain.",
   preprint={papers/AISec3-Intelligent-malware-defenses.pdf},
   selected={true},
   abbr={AI+Sec},
-  kind={Chapters},
-  forthcoming={true}
+  kind={Chapters}
 }
 
 
@@ -41,27 +39,13 @@
 S-PDFA on a per-objective, per-victim basis. Tested with intrusion alerts collected through Collegiate Penetration Testing Competition, SAGE compresses over 330k alerts into 93 AGs. These AGs reflect the strategies used by the participating teams. The AGs are succinct, interpretable, and capture behavioral dynamics, e.g., that attackers will often follow shorter paths to re-exploit objectives.},
   abbr={VizSec},
   code={https://github.com/tudelft-cda-lab/SAGE},
-  preprint={papers/SAGE-for-VizSec.pdf},
+  pdf={papers/SAGE-for-VizSec.pdf},
   video={https://youtu.be/IYddPL4q0bs},
   selected={true},
   kind={Conferences and Symposia},
-  forthcoming={true},
   slides=vizsec-sage.pdf
 }
 
-@article{nadeem2021sage,
-  title={SAGE: Intrusion Alert-driven Attack Graph Extractor},
-  author={Nadeem, Azqa and Verwer, Sicco and Moskal, Stephen and Yang, Shanchieh J},
-  journal={KDD workshop on AI-enabled Cybersecurity Analytics (AI4cyber)},
-  year={2021},
-  abstract={Attack graphs (AG) are used to assess pathways availed by cyber adversaries to penetrate a network. State-of-the-art approaches for AG generation focus mostly on deriving dependencies between system vulnerabilities based on network scans and expert knowledge. In real-world operations however, it is costly and ineffective to rely on constant vulnerability scanning and expert-crafted AGs. We propose to automatically learn AGs based on actions observed through intrusion alerts, without prior expert knowledge. Specifically, we develop an unsupervised sequence learning system, SAGE, that leverages the temporal and probabilistic dependence between alerts in a suffix-based probabilistic deterministic finite automaton (S-PDFA) -- a model that accentuates infrequent severe alerts and summarizes paths leading to them. AGs are then derived from the S-PDFA. Tested with intrusion alerts collected through Collegiate Penetration Testing Competition, SAGE produces AGs that reflect the strategies used by participating teams. The resulting AGs are succinct, interpretable, and enable analysts to derive actionable insights, e.g., attackers tend to follow shorter paths after they have discovered a longer one.},
-  pdf={https://ai4cyber-kdd.com/KDD-AISec_files/SAGE_manuscript__AI4Cyber.pdf},
-  abbr={AI4Cyber},
-  video={https://youtu.be/YWGMIlMR4n0},
-  code={https://github.com/tudelft-cda-lab/SAGE},
-  kind={Workshops},
-  slides=ai4cyber-sage.pdf
-}
 
 @article{nadeem2021beyond,
   title={Beyond Labeling: Using Clustering to Build Network Behavioral Profiles of <br/>Malware Families},
