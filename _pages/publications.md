@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: See updated list on Google Scholar.
-years: [2018, 2019, 2020,2021]
+years: [2018, 2019, 2020,2021,2022]
 categories: ['Journal', 'Conferences and Symposia', 'Workshops', 'Chapters', 'Posters']
 catprint: ['', 'Journals', 'Conferences', 'Workshops', 'Book Chapters', 'Posters']
 nav: true
