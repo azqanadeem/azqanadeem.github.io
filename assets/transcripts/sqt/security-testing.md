@@ -1,8 +1,3 @@
----
-layout: page
-permalink: /security-testing/
----
-
 # 1. Static testing
 
 Static testing analyses the code characteristics without executing the application. It can be considered as an automated code review. It checks the style and structure of the code, and can be used to _statically_ evaluate all possible code paths in the System Under Test (SUT).
@@ -24,20 +19,20 @@ The automaton for the regular expression '**bug**' is shown below. `.` is a wild
 
 
 
-![FSM for bug](img/security-testing/regex1.png)
+![FSM for bug](img/security-testing/regex1.PNG)
 
 
 The regular expression '**.\*bug**' results in the following automaton. Again, `.` matches any possible character, and `*` denotes *0 or many times*. Hence, the regex accepts any string that ends in _bug_. The following strings will be accepted by this pattern: `bug`, `this is a bug`, `bad bug`, and `bugbug`. `bug!` will be rejected by this pattern. Note that this is a non-deterministic automata since there are two possible transitions for the symbol `b` in the first state.
 
 
 
-![FSM for .*bug](img/security-testing/regex2.png)
+![FSM for .*bug](img/security-testing/regex2.PNG)
 
 
 The automaton for '**.\*bug.\***' is given below. It will accept any string that contains `b`, `u`, `g` consecutively, at least once. In this case, even `bug!` will be accepted.
 
 
-![FSM for .*bug.*](img/security-testing/regex3.png)
+![FSM for .*bug.*](img/security-testing/regex3.PNG)
 
 While regular expressions are a fast and powerful pattern matching technique, their biggest limitation is that they do not take semantics into account, ending up with many matches that are not meaningful. For example, consider the following code snippet. Suppose that the regular expression, `\s*System.out.println\(.*\);`, searches for all print statements in the code to remove them before deployment. It will find three occurrences in the code snippet, which are all meaningless because the code is already disabled by a flag.
 
