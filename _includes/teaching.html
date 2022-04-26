@@ -24,7 +24,7 @@
 				  {% if item.transcript contains '://' %}
 					<a href="{{ item.transcript }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Transcript</a>
 				  {% else %}
-					<a href="{{ item.transcript | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Transcript</a>
+					<a href="{{ item.transcript | prepend: '/assets/transcripts/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Transcript</a>
 				  {% endif %}
 				{% endif %}
 			    {% if item.video %}
