@@ -27,7 +27,7 @@ Security testing is all about finding those edge cases in which a software *can 
  Similar to traditional software testing, thorough testing *does not* guarantee the absence of security vulnerabilities. In fact, new *variants of exploits* can pop up at any time and can hit even a time-tested software. This is why security testing is not a one-off event, but has to be incorporated in the whole Software Development Life Cycle.
 
 
->> We discuss the **Secure Software Development Life Cycle** later in this chapter.
+> We discuss the **Secure Software Development Life Cycle** later in this chapter.
 
 Security testers are always at an arms-race with the attackers. Their aim is to find and fix the vulnerabilities before an adversary gets the chance to exploit them.
 In this sense, security testers have to protect a large *attack surface* (see figure), all at the same time, while an adversary only needs to find one entry-way (i.e. via an exploit) to defeat the defense. The goal of security testing is to limit the exposed attack surface and to increase the efforts required by attackers to exploit it.
@@ -196,7 +196,7 @@ As such, the term *security testing* is very broad and it covers a number of ove
 You should already be familiar with _white/black-box_ testing, static testing and some of the mentioned techniques.
 
 
->> In this chapter, we specifically focus on how to use these techniques to find security vulnerabilities.
+> In this chapter, we specifically focus on how to use these techniques to find security vulnerabilities.
 
 
 In the context of automated security testing, _static_ and _dynamic_ analysis are called _Static Application Security Testing (SAST)_ and _Dynamic Application Security Testing (DAST)_, respectively.
@@ -301,7 +301,7 @@ public void bad(HttpServletRequest request, HttpServletResponse response)
 
 
 
->> A dynamic version of Data Flow Analysis is called Taint analysis, where the tainted variables' values are tracked in memory. We cover it in the DAST section of this chapter. 
+> A dynamic version of Data Flow Analysis is called Taint analysis, where the tainted variables' values are tracked in memory. We cover it in the DAST section of this chapter. 
 
 
 
@@ -392,7 +392,7 @@ Files.readAllLines("foo.txt");
 
 To check the existence of such scenarios, they codify it in a property that _stops a program from passing the same filename to two system calls on the same path_. Once codified in a model checker, they run it on various applications and report on deviations from this property.   
 
->> It is important to note that not all security properties can be codified into specifications. Additionally, such specifications need to be updated regularly to detect new vulnerabilities and to reduce false alarms.
+> It is important to note that not all security properties can be codified into specifications. Additionally, such specifications need to be updated regularly to detect new vulnerabilities and to reduce false alarms.
 
 
 ### Penetration testing
@@ -635,7 +635,7 @@ Abstract Syntax Trees are used by compilers to find semantic errors &mdash; comp
  >Note that in practice, static analysis tools _can produce unsound results_, e.g. if a piece of code is added at runtime, since the tool will fail to see the new code-piece. This is one reason why the results of static analysis cannot always be trusted, especially in a security context.  
 
 
->> _Soundness_ and _Completeness_ are defined more extensively in the Security testing chapter. 
+> _Soundness_ and _Completeness_ are defined more extensively in the Security testing chapter. 
 
 ## Exercises
 
@@ -671,7 +671,7 @@ Fuzzers bombard the System Under Test (SUT) with randomly generated inputs in th
 A crash can either originate from *failing assertions*, *memory leaks*, or *improper error handling*.
 Fuzzing has been successful in discovering [unknown bugs](https://lcamtuf.coredump.cx/afl/) in software.
 
->> Note that fuzzing cannot identify flaws that do not trigger a crash.
+> Note that fuzzing cannot identify flaws that do not trigger a crash.
 
 **Random fuzzing** is the most primitive type of fuzzing, where the SUT is considered as a completely black box, with no assumptions about the type and format of the input.
 It can be used for exploratory purposes, but it takes a long time to generate any meaningful test cases.
@@ -761,7 +761,7 @@ public void func(int a, boolean b){
 }
 ```
 
->> For interested readers, we recommend the "fuzzing book": [https://www.fuzzingbook.org](https://www.fuzzingbook.org)!
+> For interested readers, we recommend the "fuzzing book": [https://www.fuzzingbook.org](https://www.fuzzingbook.org)!
 
 ## References
 
