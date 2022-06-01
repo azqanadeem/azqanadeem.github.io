@@ -1,4 +1,4 @@
-# Content
+# Chapters
 - [Security testing](#security-testing)
 - [Static testing](#static-testing)
 - [Fuzz testing](#fuzz-testing)
