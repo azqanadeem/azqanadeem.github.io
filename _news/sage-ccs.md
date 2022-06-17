@@ -5,4 +5,4 @@ inline: true
 award: false
 ---
 
-Presenting a poster on SAGE at [ACM-CCS](https://www.sigsac.org/ccs/CCS2021/accepted-posters.html). :scroll:
+Presenting a poster on Alert-driven Attack Graphs at [ACM-CCS](https://www.sigsac.org/ccs/CCS2021/accepted-posters.html). :scroll:
