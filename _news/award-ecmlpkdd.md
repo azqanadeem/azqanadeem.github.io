@@ -5,4 +5,4 @@ inline: true
 award: true
 ---
 
-Received a Community Engagement Award at ECML-PKDD. :trophy:
+Received a Community Engagement Award at ECML/PKDD. :trophy:
