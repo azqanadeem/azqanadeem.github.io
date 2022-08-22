@@ -21,6 +21,6 @@ I am a Ph.D. candidate in the [Cyber Analytics Lab](https://cyber-analytics.nl/)
 
 In my research, I utilize <b class="main-name">Machine Learning for Cyber Security</b>. Specifically, I develop *explainable sequential machine learning pipelines* that extract actionable intelligence from large volumes of cyber data with the aim of assisting security analysts in their daily operations.
 
-Next to research, I teach introductory Cyber Security to BSc. (Computer Science and Engineering) students. The teaching material can be found under [Cyber Security Lecture Series](https://azqa.github.io/teaching/).
+Next to research, I teach introductory Cyber Security to BSc. (Computer Science and Engineering) students. The teaching material can be found under [Cyber Security Lecture Series](https://azqanadeem.github.io/teaching/).
 
 Outside of work, I love landscape photography and traveling. I enjoy discussions about human psychology, devious behavior, cats, imposter syndrome, and... well... cats.
