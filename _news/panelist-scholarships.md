@@ -5,4 +5,4 @@ inline: true
 award: false
 ---
 
-Panelist for a webinar on [MSc. scholarship opportunities in NL](https://github.com/azqanadeem/azqanadeem.github.io/blob/master/assets/slides/MSc-in-NL-up.pdf) organized by the Pakistani embassy. 
+Panelist for a webinar on [MSc. scholarship opportunities in NL](https://azqanadeem.github.io/assets/slides/MSc-in-NL-up.pdf) organized by the Pakistani embassy. 
