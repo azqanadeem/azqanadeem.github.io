@@ -5,4 +5,4 @@ inline: true
 award: false
 ---
 
-Serving as Mentoring co-chair for the [European Symposium on Security and Privacy](https://www.ieee-security.org/TC/EuroSP2023/) (EuroS&P 2023). :school: 
+Serving as mentoring co-chair for the [EuroS&P 2023](https://www.ieee-security.org/TC/EuroSP2023/). :school: 
