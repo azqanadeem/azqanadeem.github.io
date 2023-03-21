@@ -17,10 +17,18 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. candidate in the [Cyber Analytics Lab](https://cyber-analytics.nl/) (Cyber Security group) at [Delft University of Technology](https://www.tudelft.nl/), advised by [Dr. Sicco Verwer](https://www.tudelft.nl/staff/s.e.verwer/). 
+I am a Ph.D. candidate and Lecturer in the [Cyber Analytics Lab](https://cyber-analytics.nl/) (Cyber Security group) at 
+[Delft University of Technology](https://www.tudelft.nl/), advised by 
+[Dr. Sicco Verwer](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/cybersecurity/people/sicco-verwer) and [Dr. George Smaragdakis](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/cybersecurity/people/george-smaragdakis). 
 
-In my research, I utilize <b class="main-name">Machine Learning for Cyber Security</b>. Specifically, I develop *explainable sequential machine learning pipelines* that extract actionable intelligence from large volumes of cyber data with the aim of assisting security analysts in their daily operations.
+My research focus is on <b class="main-name">Explainable Machine Learning for Cyber Security</b>. 
+I truly believe that machine learning can provide more insights than just prediction probabilities. To this aim, I develop 
+*explainable sequential machine learning pipelines* that extract actionable 
+intelligence from large volumes of cyber data with the aim of assisting security analysts in their daily operations. 
+These pipelines create human in the loop settings for AI-assisted humans.
 
-Next to research, I teach introductory Cyber Security to BSc. (Computer Science and Engineering) students. The teaching material can be found under [Cyber Security Lecture Series](https://azqanadeem.github.io/teaching/).
+Next to research, I spend 40% of my time developing and teaching Cyber Security lectures to BSc. (Computer Science and Engineering) 
+students. The teaching material can be found under [Cyber Security Lecture Series](https://azqanadeem.github.io/teaching/).
 
-Outside of work, I love landscape photography and traveling. I enjoy discussions about human psychology, devious behavior, cats, imposter syndrome, and... well... cats.
+Outside of work, I love landscape photography and traveling. I enjoy discussions about human psychology, 
+devious behavior, cats, imposter syndrome, and... well... cats.
