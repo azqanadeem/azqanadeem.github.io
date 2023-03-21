@@ -27,8 +27,8 @@ I truly believe that machine learning can provide more insights than just predic
 intelligence from large volumes of cyber data with the aim of assisting security analysts in their daily operations. 
 These pipelines create human in the loop settings for AI-assisted humans.
 
-Next to research, I spend 40% of my time developing and teaching Cyber Security lectures to BSc. (Computer Science and Engineering) 
-students. The teaching material can be found under [Cyber Security Lecture Series](https://azqanadeem.github.io/teaching/).
+Next to research, I spend 40% of my time developing and teaching Cyber Security lectures to BSc. (Computer Science and Engineering) students at TU Delft. 
+The teaching material can be found under [Cyber Security Lecture Series](https://azqanadeem.github.io/teaching/).
 
 Outside of work, I love landscape photography and traveling. I enjoy discussions about human psychology, 
 devious behavior, cats, imposter syndrome, and... well... cats.
