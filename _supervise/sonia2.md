@@ -1,6 +1,6 @@
 ---
 layout: post
-year: 2023 (Ongoing)
+year: 2023
 degree: 'MSc.'
 topic: Critical Path Exploration Dashboard for Alert-driven Attack Graphs
 student: Sònia Leal Díaz (University Carlos III of Madrid)

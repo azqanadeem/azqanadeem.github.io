@@ -1,6 +1,6 @@
 ---
 layout: post
-year: 2023 (Ongoing)
+year: 2023
 degree: 'MSc.'
 topic: Real-time Attack graph generation using S-PDFA
 student: Ion Băbălău
