@@ -87,7 +87,7 @@
 	  <table class="table table-sm table-borderless">
       
 	  {% assign project = site.supervise %}
-      {% for item in project %}
+      {% for item in project reversed %}
 	  {% if item.degree == 'MSc.' %}
         <tr>
 		  <td><i class="fa fa-caret-right main-name"></i></td>
@@ -107,7 +107,7 @@
 	  </table>
 	  <h6 class=" font-weight-bolder"> <u>Bachelor theses</u></h6>
 	  <table class="table table-sm table-borderless">
-      {% for item in project %}
+      {% for item in project reversed%}
 	  {% if item.degree == 'BSc.' %}
         <tr>
 		  <td><i class="fa fa-caret-right main-name"></i></td>
