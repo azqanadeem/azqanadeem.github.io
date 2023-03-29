@@ -21,7 +21,7 @@ I am a Ph.D. candidate and Lecturer in the [Cyber Analytics Lab](https://cyber-a
 [Delft University of Technology](https://www.tudelft.nl/), advised by 
 [Dr. Sicco Verwer](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/cybersecurity/people/sicco-verwer) and [Dr. George Smaragdakis](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/cybersecurity/people/george-smaragdakis). 
 
-My research focus is on <b class="main-name">Explainable Machine Learning for Cyber Security</b>. 
+My research focuses on <b class="main-name">Explainable Machine Learning for Cyber Security</b>. 
 I truly believe that machine learning can provide more insights than just prediction probabilities. To this aim, I develop 
 *explainable sequential machine learning pipelines* that extract actionable 
 intelligence from large volumes of cyber data with the aim of assisting security analysts in their daily operations. 
