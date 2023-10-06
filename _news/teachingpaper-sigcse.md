@@ -6,4 +6,4 @@ award: false
 ---
 
 
-My experience report on including cybersecurity across BSc courses is accepted at [SIGCSE](https://sigcse2024.sigcse.org/)! :scroll:
+My experience report on integrating cybersecurity across BSc courses is accepted at [SIGCSE](https://sigcse2024.sigcse.org/)! :scroll:

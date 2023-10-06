@@ -5,4 +5,4 @@ inline: true
 award: false
 ---
 
-My undergrad students will present their theses on learning from infrequrnt traces at [BNAIC 2023](https://bnaic2023.tudelft.nl/)! :scroll:
+My undergrad students will present their theses on learning from infrequrnt traces at [BNAIC](https://bnaic2023.tudelft.nl/)! :scroll:
