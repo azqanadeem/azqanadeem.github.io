@@ -11,8 +11,8 @@
         <tr class="flex">
 		  <td><i class="fa fa-caret-right main-name"></i></td>
           <td>
-              <b>Topic: <span class="main-name">"{{ item.topic }}"</span></b>. <br/>
-			  [{{ item.title }}] {{ item.name }}
+              <b>[{{ item.title }}] <span class="main-name">"{{ item.name }}"</span></b> <br/>
+			  <span class="lec-years"> {{ item.inst }} </span>
 			  
 			<div class="content-links">
 			  {% if item.slides %}
@@ -45,7 +45,8 @@
 		  <td><i class="fa fa-caret-right main-name"></i></td>
           <td>
                <b>Topic: <span class="main-name">"{{ item.topic }}"</span></b> (Guest lecture). <br/>
-			   [{{ item.title }}] {{ item.name }}
+			   [{{ item.title }}] {{ item.name }} <br/>
+			   <span class="lec-years"> {{ item.inst }} </span>
 			  
 			<div class="content-links">
 			  {% if item.slides %}
@@ -93,7 +94,8 @@
 		  <td><i class="fa fa-caret-right main-name"></i></td>
           <td>
               <b>Topic: <span class="main-name">"{{ item.topic }}"</span></b>. <br/>
-			  [{{ item.title }}] {{ item.name }}
+			  [{{ item.title }}] {{ item.name }} <br/>
+			  <span class="lec-years"> {{ item.inst }} </span>
 			  
 			<div class="content-links">
 			  {% if item.slides %}
