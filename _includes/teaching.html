@@ -4,7 +4,7 @@
   {% if site.courses  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
-      {% assign lectures = site.courses reversed %}
+      {% assign lectures = site.courses %}
 	  
 	  {% for item in lectures%}
 	    {% if item.fulltime == 'true' and item.guest == 'false' %}
@@ -87,7 +87,7 @@
   {% if site.courses  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
-      {% assign lectures = site.courses reversed %}
+      {% assign lectures = site.courses %}
       {% for item in lectures%}
 	    {% if item.csls == 'true' %}
         <tr class="flex">
