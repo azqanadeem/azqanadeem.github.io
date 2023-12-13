@@ -56,6 +56,13 @@
 					<a href="{{ item.slides | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
 				  {% endif %}
 			   {% endif %}
+			   {% if item.slides2 %}
+				  {% if item.slides2 contains '://' %}
+					<a href="{{ item.slides2 }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+				  {% else %}
+					<a href="{{ item.slides2 | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+				  {% endif %}
+			   {% endif %}
 			   {% if item.transcript %}
 				  {% if item.transcript contains '://' %}
 					<a href="{{ item.transcript }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Transcript</a>
