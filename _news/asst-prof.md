@@ -5,4 +5,4 @@ inline: true
 award: false
 ---
 
-I'm thrilled to join the [SCS group](https://www.utwente.nl/en/eemcs/scs/) @ Uni. of Twente as assistant professor starting Jan '24! :woman_teacher: :sparkles:
+I'm thrilled to join the [SCS group @ Uni. of Twente](https://www.utwente.nl/en/eemcs/scs/) as assistant professor starting Jan '24! :woman_teacher: :sparkles:
