@@ -17,8 +17,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-*I am currently visiting Prof. Balzarotti at Eurecom, France for 3 months. We are working on automated malware capability discovery using machine learning.*
-
 I am a Ph.D. candidate and Lecturer in the [Cyber Analytics Lab](https://cyber-analytics.nl/) (Cyber Security group) at 
 [Delft University of Technology](https://www.tudelft.nl/), advised by 
 [Dr. Sicco Verwer](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/cybersecurity/people/sicco-verwer).  
