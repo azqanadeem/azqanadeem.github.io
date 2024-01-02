@@ -2,33 +2,36 @@
 layout: about
 title: About
 permalink: /
-description: <i class="fa fa-envelope main-name"></i> [firstname].[lastname]@tudelft.nl
+description: <i class="fa fa-envelope main-name"></i> [firstname].[lastname]@tudelft.nl <b class="main-name"> or </b> a.[lastname]@utwente.nl
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>04.E.360, Building 28, EEMCS,</p>
-    <p>Delft University of Technology,</p>
-    <p>The Netherlands</p>
+    <p>ZI 2005, Zilverling, EEMCS,</p>
+    <p>University of Twente,</p>
+    <p>Enschede, NL</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. candidate and Lecturer in the [Cyber Analytics Lab](https://cyber-analytics.nl/) (Cyber Security group) at 
-[Delft University of Technology](https://www.tudelft.nl/), advised by 
-[Dr. Sicco Verwer](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/cybersecurity/people/sicco-verwer).  
-
+I am a lecturer in the [Semantics, Cybersecurity and Services (SCS) group](https://www.utwente.nl/en/eemcs/scs/) at 
+[University of Twente](https://www.utwente.nl/en/).
 My research focuses on <b class="main-name">Explainable Machine Learning for Cyber Security</b>. 
-I truly believe that machine learning can provide more insights than just prediction probabilities. To this aim, I develop 
-*explainable sequential machine learning pipelines* that extract actionable 
-intelligence from large volumes of cyber data with the aim of assisting security analysts in their daily operations. 
-These pipelines create human in the loop settings for AI-assisted humans.
+My mission is to go beyond prediction probabilities, and extract semantically meaningful insights from 
+machine learning models (especially under unsupervised settings with complex structured data). 
 
-Next to research, I spend 40% of my time developing and teaching Cyber Security lectures to BSc. (Computer Science and Engineering) students at TU Delft. 
-The teaching material can be found under [Cyber Security Lecture Series](https://azqanadeem.github.io/teaching/).
 
-Outside of work, I love landscape photography and traveling. I enjoy discussions about human psychology, 
+Before joining UT, I was a PhD candidate/lecturer at TU Delft. 
+During my PhD, I developed several *explainable sequential machine learning tool-chains* for automating cyber threat intelligence generation.
+These tool-chains extracted behavioral insights from large volumes of cyber data in order to assist security analysts in understanding adversary behavior. 
+
+Next to research, I also spent 40% of my time developing and teaching cyber security lectures to BSc. (Computer Science and Engineering) students at TU Delft.
+I wrote about my teaching experience [here](https://arxiv.org/abs/2310.07625), 
+and the teaching material can be found under [Cyber Security Lecture Series](https://azqanadeem.github.io/teaching/). 
+
+
+Outside of work, I love photography, painting, and traveling. I enjoy discussions about human psychology, 
 devious behavior, cats, imposter syndrome, and... well... cats.
