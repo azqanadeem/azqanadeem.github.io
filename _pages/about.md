@@ -21,7 +21,7 @@ I am a lecturer at [University of Twente](https://www.utwente.nl/en/)
 in the [Semantics, Cybersecurity, and Services (SCS) group](https://www.utwente.nl/en/eemcs/scs/). 
 My research focuses on <b class="main-name"><i>explainable machine learning solutions for cyber security tasks</i></b> such as incident response, malware analysis, 
 and intrusion detection. My mission is to go beyond prediction probabilities, and extract semantically meaningful insights from 
-machine learning models (especially under unsupervised settings with complex structured data). 
+ML models (especially under unsupervised settings with complex structured data). 
 
 
 Before joining UT, I was a PhD candidate/lecturer at TU Delft. 
