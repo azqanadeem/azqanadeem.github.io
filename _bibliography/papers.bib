@@ -284,3 +284,72 @@ kind={Posters},
 poster={proposals/sagedashboard_proposal.pdf},
 
 }
+
+@thesis{nadeemmscthesis2018,
+    title        = {Clustering Malware's Network Behavior using Simple Sequential Features},
+    author       = {Nadeem, Azqa},
+    year         = 2018,
+    month        = {September},
+	abstract= "Developing malware variants is extremely cheap for attackers because of the availability of various obfuscation tools. 
+	These variants can be grouped in malware families, based on information retrieved from their static and dynamic analysis. 
+	Dynamic, network-level analysis of malware shows its core behavior since it captures the interaction with its developer. 
+	On the other hand, increasingly more emphasis is given to using Deep Packet Inspection (DPI) in order to cluster malware’s network behavior. 
+	However, DPI has severe privacy implications, as it involves inspecting payloads of the network traffic. This thesis presents an exploratory study, 
+	the aim of which is to characterize and cluster malware behavior using high-level, non-privacy-invasive, sequential features extracted from its network activity. 
+	The key intuition behind the proposed solution is that if the underlying infrastructure of distinct malware samples is similar, 
+	the order in which they perform certain actions should also be similar. The results of this research show that sequence clustering allows flexible and 
+	robust clusters, as opposed to using non-sequential features. The clusters themselves reveal interesting attacking capabilities, 
+	such as port scans, and the same Command and Control server responding to different malware families. Lastly, a comparison with clusters obtained 
+	from static analysis reveals that network-based clustering is far more qualified to determine the many behaviors exhibited by a single malware family, 
+	as well as behaviors common across multiple malware families.",
+    note         = {Available at \url{https://repository.tudelft.nl/islandora/object/uuid%3Ac8a221b9-9289-4978-a356-af64d8f2c5e0}},
+	abbr={MSc.},
+	kind={Theses},
+	thesis={https://repository.tudelft.nl/islandora/object/uuid%3Ac8a221b9-9289-4978-a356-af64d8f2c5e0}
+}
+
+@thesis{nadeemphdthesis2024,
+    title        = {Understanding Adversary Behavior via XAI: Leveraging Sequence Clustering <br/>to Extract Threat Intelligence},
+    author       = {Nadeem, Azqa},
+    year         = 2024,
+    month        = {April},
+	abstract="Understanding the behavior of cyber adversaries provides threat intelligence to security 
+practitioners, and improves the cyber readiness of an organization. With the rapidly 
+evolving threat landscape, data-driven solutions are becoming essential for automatically 
+extracting behavioral patterns from data that are otherwise too time-consuming 
+to discover manually. This dissertation advocates the use of machine learning (ML) to 
+obtain insights into adversary behavior for creating AI-assisted practitioners. However, 
+developing adversary behavior models is challenging since cyber data is often unlabeled, 
+noisy, infrequent, and contains intricate patterns that evolve over time. We demonstrate 
+that sequential features are effective at addressing these challenges. Yet, they have limited 
+interpretability and algorithmic support. This dissertation starts by defining the notion of explainability as it is currently used 
+within cybersecurity by systematizing available literature in Chapter 2. We find that 
+the literature frequently relies on black-box models that use off-the-shelf explanation 
+methods without considering the explanation stakeholders. In contrast, literature on 
+sequence learning models that are interpretable by design is severely limited. 
+We address these challenges by developing special algorithms that learn sequential 
+patterns from infrequent events, and evolving data in an unsupervised setting. We utilize 
+these algorithms to create interpretable tool-chains for understanding the behavior of 
+various types of adversaries. We show that it is possible to learn interpretable models 
+(even for complex sequential data in an unsupervised setting) that providemore insights 
+than just prediction probabilities, while achieving competitive performance. In doing 
+so, we encourage the security community to look beyond accuracy scores, and focus on 
+extracting actionable insights fromMLmodels. We make our tool-chains open-source. The first part of this thesis models the strategies 
+employed by human threat actors. 
+Chapters 3 and 4 develop a novel paradigmof attack graphs (AG) that are learned directly 
+fromintrusion alerts for capturing attacker strategies. The attacker strategies are learned 
+using our S-PDFA model, which is interpretable, fast, and effective. We learn alert-driven 
+AGs from 3 open-source datasets, and show their ability to compress over 1.4 million 
+alerts in 401 AGs in under 5 minutes. The AGs provide actionable intelligence regarding 
+strategic differences and fingerprintable paths. They also reduce analyst alert fatigue by 
+triaging critical attacks. The second part of the thesis models the capabilities exhibited by automated threat 
+actors (malware). Chapters 5 and 6 develop an explainable sequence clustering toolchain 
+to automatically characterize the network behavior of malware samples. We use 
+this tool-chain to create behavioral profiles of 1196 real-world malware samples that explain 
+their capabilities. We also develop a streaming sequence clustering algorithm for 
+real-time behavior profiling, which is evaluated on 5 datasets and against 4 clustering 
+algorithms. By automatically creating behavioral profiles of bot-infected hosts in realtime, 
+we distinguish benign and malicious hosts with 100% accuracy.",
+	abbr={PhD.},
+	kind={Theses},
+}
