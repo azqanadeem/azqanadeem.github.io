@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: <i class="fa fa-envelope main-name"></i> [firstname].[lastname]@tudelft.nl <b class="main-name"> or </b> a.[lastname]@utwente.nl
+description: <i class="fa fa-envelope main-name"></i> a.[lastname]@utwente.nl <br/> <i class="fa fa-envelope main-name"></i> [firstname].[lastname]@tudelft.nl
 
 profile:
   align: right
