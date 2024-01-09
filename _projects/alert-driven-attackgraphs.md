@@ -6,11 +6,13 @@ img: assets/img/projects/ags.png
 importance: 2
 category: Completed
 related_publications: true
+github: [![SAGE](https://img.shields.io/github/stars/tudelft-cda-lab/SAGE?style=social)](https://github.com/tudelft-cda-lab/SAGE)
 
 ---
 
 
-**Description:**
+**Description:** [![SAGE](https://img.shields.io/github/stars/tudelft-cda-lab/SAGE?style=social)](https://github.com/tudelft-cda-lab/SAGE)
+
 
 Practitioners in Security Operations Centers (SOC) struggle to keep up with the dramatic volumes of intrusion alerts. 
 Once a network intrusion is detected, the process to identify and reverse engineer attacker strategies (attack campaigns) 
@@ -26,5 +28,3 @@ the gap between dynamic alert management and static attack graphs {% cite nadeem
 and the alerts can appear in different contexts even if they have the same signatures. We aim to develop alert-driven attack graphs that are capable of 
 compressing thousands of alerts, and can enable analysts to triage critical alerts only {% cite postersage %}. We also aim to develop a dashboard for the alert-driven AGs 
 that provides additional prioritization and querying capabilities to security analysts {% cite postersagedashboard %}.
-
-TL [![Transfer learning repo](https://img.shields.io/github/stars/jindongwang/transferlearning?style=social)](https://github.com/jindongwang/transferlearning)
