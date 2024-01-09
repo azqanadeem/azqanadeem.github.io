@@ -340,8 +340,13 @@ footer.sticky-bottom {
   }
 
   .grid-item {
-    width: auto;
+    width: 250px;
     margin-bottom: 10px;
+	
+	.row {
+      display: flex;
+      align-items: center;
+    }
   }
 
   h2.category {

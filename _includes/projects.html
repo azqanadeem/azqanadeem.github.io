@@ -6,7 +6,8 @@
     {%- else -%}
     <a href="{{ project.url | relative_url }}">
       {%- endif %}
-      <div class="card hoverable col-md-6">
+      <div class="card hoverable">
+	  <div class="row g-0">
         {%- if project.img %}
 		<img src="{{ project.img | relative_url }}" alt="project thumbnail">
         {%- endif %}
@@ -30,5 +31,6 @@
           </div>
         </div>
       </div>
+	  </div>
     </a>
 </div>
