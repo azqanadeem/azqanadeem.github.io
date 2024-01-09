@@ -6,8 +6,7 @@ img: assets/img/projects/ags.png
 importance: 2
 category: Completed
 related_publications: true
-github: https://github.com/tudelft-cda-lab/SAGE
-github_stars: 25
+
 ---
 
 
@@ -28,3 +27,4 @@ and the alerts can appear in different contexts even if they have the same signa
 compressing thousands of alerts, and can enable analysts to triage critical alerts only {% cite postersage %}. We also aim to develop a dashboard for the alert-driven AGs 
 that provides additional prioritization and querying capabilities to security analysts {% cite postersagedashboard %}.
 
+TL [![Transfer learning repo](https://img.shields.io/github/stars/jindongwang/transferlearning?style=social)](https://github.com/jindongwang/transferlearning)
