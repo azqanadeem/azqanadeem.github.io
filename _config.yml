@@ -169,13 +169,19 @@ scholar:
 
   replace_strings: true
   join_strings: true
-  bibtex_filters:
+  bibtex_filters: [latex, smallcaps, superscript]
 
   details_dir: bibliography
   details_layout: bibtex.html
   details_link: Details
 
   query: "@*"
+  group_by: year
+  group_order: descending
+ 
+# Filter out certain bibtex entry keywords used internally from the bib output
+filtered_bibtex_keywords: [abbr, abstract, altmetric, arxiv, bibtex_show, blog, code, html, pdf, poster, preview, selected, slides, supp, video, website]
+
 
 # -----------------------------------------------------------------------------
 # Optional Features

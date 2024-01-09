@@ -12,5 +12,5 @@ related_publications: true
 **Description:**
 
 In this project, we aim to systematize the state-of-the-art literature that uses explainable artifical intellignece (XAI) for security applications 
-in order to consolidate the notion of explainability within cybersecurity {% cite nadeem2023sok %}. The systematization is done in terms of 
+in order to consolidate the notion of explainability within cybersecurity. The systematization is done in terms of 
 key stakeholders (explanation users), application objectives (explanation uses), task domains, and preferred explanation methods.

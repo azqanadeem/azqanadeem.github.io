@@ -22,7 +22,7 @@ Furthermore, the algorithms that support sequential data do not provide interpre
 analysts need to be able to understand the evolving behaviors captured by a cluster. There is currently no way to cluster large sequential datasets 
 in real-time while supporting interpretability and concept drift. 
 
-In this project, we aim to develop the first interpretable clustering algorithm that efficiently clusters sequences in real-time {% cite nadeem2022secleds %}. 
+In this project, we aim to develop the first interpretable clustering algorithm that efficiently clusters sequences in real-time . 
 Specifically, we aim to create a linear and real-time version of the k-medoids algorithm. This algorithm should be able to summarize network traffic, 
 i.e., represent important concepts using its k medoids. We will then investigate whether such an algorithm improves the quality of malware capability assessment 
 compared to standard approaches.
