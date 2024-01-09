@@ -2,7 +2,7 @@
 layout: page
 title: Explainability in Security
 description: So what does explainability mean in cybersecurity?
-img: assets/img/projects/sok.PNG
+img: assets/img/projects/sok.png
 importance: 4
 category: Completed
 related_publications: true
