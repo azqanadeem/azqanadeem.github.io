@@ -4,8 +4,8 @@ permalink: /publications/
 title: Publications
 description: See updated list on Google Scholar.
 years: [2018, 2019, 2020,2021,2022,2023,2024]
-categories: ['Journal', 'Conferences and Symposia', 'Workshops', 'Chapters', 'Posters', 'Theses']
-catprint: ['', 'Journals', 'Conferences', 'Workshops', 'Book Chapters', 'Posters', 'Theses']
+categories: ['Conferences and Symposia', 'Workshops', 'Journal', 'Chapters', 'Posters', 'Theses']
+catprint: ['', 'Conferences', 'Workshops', 'Journals', 'Book Chapters', 'Posters', 'Theses']
 nav: true
 ---
 
