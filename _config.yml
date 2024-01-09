@@ -100,7 +100,10 @@ collections:
     output: true
   service:
     output: true
-
+  projects:
+    output: true
+    permalink: /projects/:path/
+    
 news_limit: 5
 
 # -----------------------------------------------------------------------------
