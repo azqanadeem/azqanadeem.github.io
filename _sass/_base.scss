@@ -323,15 +323,11 @@ footer.sticky-bottom {
     img {
       width: 100%;
     }
-    .card-title {
-      color: $black-color;
-    }
   }
 
   .card-item {
     width: auto;
     margin-bottom: 10px;
-	font-family: monospace;
 
     .row {
       display: flex;
@@ -339,15 +335,12 @@ footer.sticky-bottom {
     }
   }
 
+  .grid-sizer,
   .grid-item {
     width: 250px;
     margin-bottom: 10px;
-	
-	.row {
-      display: flex;
-      align-items: center;
-    }
   }
+
 
   h2.category {
     color: $grey-color-light;
