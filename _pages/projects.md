@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 3
-display_categories: [on-going, completed]
+display_categories: [On-going, Completed]
 ---
 
 <!-- pages/projects.md -->

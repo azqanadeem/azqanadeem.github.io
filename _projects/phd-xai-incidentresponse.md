@@ -1,12 +1,15 @@
 ---
 layout: page
 title: Explainable Incident Response
-description: PhD position on cybersecurity, explanability, incident response
+description: PhD position on cybersecurity, explanability, and incident response
 img: assets/img/projects/soc.jpg
 importance: 1
-category: on-going
+category: On-going
 related_publications: true
 ---
+
+
+**Description:**
 
 The Twente University Centre for Cybersecurity Research (TUCCR) has a vacancy for a PhD Position in Explainable Incident Response. 
 The PhD student will be embedded within the Semantics, Cybersecurity, and Services (SCS) group at University of Twente.
@@ -34,8 +37,8 @@ only novel but also have real-world applications. For this, the student will hav
 collaboration with industry partners under the TUCCR initiative. 
 
 
-For details and application submission: <comming soon/>
+For details and application submission: _[comming soon]_
 
 
-Application deadline: <coming soon/>
+Application deadline: _[coming soon]_
 
