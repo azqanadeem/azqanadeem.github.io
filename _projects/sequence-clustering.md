@@ -26,3 +26,5 @@ In this project, we aim to develop the first interpretable clustering algorithm 
 Specifically, we aim to create a linear and real-time version of the k-medoids algorithm. This algorithm should be able to summarize network traffic, 
 i.e., represent important concepts using its k medoids. We will then investigate whether such an algorithm improves the quality of malware capability assessment 
 compared to standard approaches.
+
+**Code repo:** [SECLEDS](https://github.com/tudelft-cda-lab/SECLEDS) [![SECLEDS](https://img.shields.io/github/stars/tudelft-cda-lab/SECLEDS?style=social)](https://github.com/tudelft-cda-lab/SECLEDS)

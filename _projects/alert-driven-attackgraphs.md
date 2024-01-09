@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Attacker Strategy Discovery [![SAGE](https://img.shields.io/github/stars/tudelft-cda-lab/SAGE?style=social)](https://github.com/tudelft-cda-lab/SAGE)
+title: Attacker Strategy Discovery 
 description: Bridging the gap between alert management and attack graph generation
 img: assets/img/projects/ags.png
 importance: 2
