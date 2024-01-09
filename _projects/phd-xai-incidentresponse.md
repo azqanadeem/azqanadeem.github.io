@@ -18,19 +18,19 @@ The PhD student will be embedded within the Semantics, Cybersecurity, and Servic
 
 In recent years, machine learning (ML) solutions are increasingly being deployed in Security Operations Centers (SOCs) to enhance 
 security coverage, and to reduce the number of missed attacks. Not only do these ML systems create many false positives, 
-it is often very difficult to understand how they work in the first place. Moreover, the forensic analysis of incidents and incident 
+it is often very difficult to understand how they work in the first place {% cite nadeem2023sok %}. Moreover, the forensic analysis of incidents and incident 
 response are largely manual procedures, leading to analyst burnout and 'alert fatigue'. 
 
 
 The objective of this PhD project is to create 'AI-assisted practitioners' for incident response by developing novel ML algorithms 
-that reduce analyst workload and provide decision-making assistance. We propose to develop explainable ML algorithms that summarize large 
-volumes of observable data (intrusion alerts, network & system logs) in order to discover contextually meaningful patterns from them. 
+that reduce analyst workload and provide decision-making assistance {% cite nadeem2021sage3 %}. We propose to develop explainable ML algorithms that 
+summarize large volumes of observable data (intrusion alerts, network & system logs) in order to discover contextually meaningful patterns from them. 
 The student will explore multi-modal learning and generative AI to produce actionable explanations from these discovered patterns 
 that are tailored to the operator's expertise. 
 
 
 The evaluation of these algorithms will be done under closed-world and open-world settings. For the closed-world setting, a major challenge 
-is the lack of suitable datasets to evaluate ML models. The student will set up a testbed together with our industry collaborators 
+is the lack of suitable datasets to evaluate ML models {% cite rimmer2021open %}. The student will set up a testbed together with our industry collaborators 
 for the collection of intrusion alert datasets. For the open-world setting, the student will deploy these algorithms in real SOC environments 
 in order to measure the extent of workload reduction experienced by security analysts. In doing so, we aim to develop technologies that are not 
 only novel but also have real-world applications. For this, the student will have the opportunity to participate in internships and/or 

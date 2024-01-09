@@ -18,10 +18,11 @@ show attack progression. Meanwhile, traditional attack graphs (AG) show attack p
 that is not always available, resulting in graphs that only show a static view of the network. Learning attack graphs from data is a longstanding 
 open problemin cybersecurity and formal methods. It is challenging to discover sequential constraints within data while mitigating issues related to a 
 state-space explosion. Existing efforts have so far managed to summarize alert datasets using sequential 
-machine learning without explicitly extracting attack graphs. 
+machine learning without explicitly extracting attack graphs {% cite nadeem2023learning %}. 
 
 This project explores unsupervised sequence learning techniques to construct attack graphs directly from intrusion alerts as a way of bridging 
-the gap between dynamic alert management and static attack graphs. This is a challenging task since intrusion alerts are typically highly imbalanced, 
+the gap between dynamic alert management and static attack graphs {% cite nadeem2021sage3 %}. This is a challenging task since intrusion alerts are typically highly imbalanced, 
 and the alerts can appear in different contexts even if they have the same signatures. We aim to develop alert-driven attack graphs that are capable of 
-compressing thousands of alerts, and can enable analysts to triage critical alerts only. We also aim to develop a dashboard for the alert-driven AGs 
-that provides additional prioritization and querying capabilities to security analysts.
+compressing thousands of alerts, and can enable analysts to triage critical alerts only {% cite postersage %}. We also aim to develop a dashboard for the alert-driven AGs 
+that provides additional prioritization and querying capabilities to security analysts {% cite postersagedashboard %}.
+
