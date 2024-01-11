@@ -11,8 +11,8 @@ related_publications: true
 
 **Description:**
 
-<b>The Twente University Centre for Cybersecurity Research (TUCCR) has a vacancy for a PhD Position in Explainable Incident Response. 
-The PhD student will be embedded within the Semantics, Cybersecurity, and Services (SCS) group at University of Twente.</b>
+<em>The Semantics, Cybersecurity, and Services (SCS) group at the University of Twente and the Twente University Centre for Cybersecurity Research (TUCCR) 
+invites applications for a PhD Position in Explainable Incident Response.</em>
 
 
 
@@ -33,12 +33,15 @@ The evaluation of these algorithms will be done under closed-world and open-worl
 is the lack of suitable datasets to evaluate ML models {% cite rimmer2021open %}. The student will set up a testbed together with our industry collaborators 
 for the collection of intrusion alert datasets. For the open-world setting, the student will deploy these algorithms in real SOC environments 
 in order to measure the extent of workload reduction experienced by security analysts. In doing so, we aim to develop technologies that are not 
-only novel but also have real-world applications. For this, the student will have the opportunity to participate in internships and/or 
-collaboration with industry partners under the TUCCR initiative. 
+only novel but also have real-world applications. 
+
+The PhD student will be embedded within the Semantics, Cybersecurity, and Services (SCS) group at University of Twente. 
+The student will have the opportunity to participate in internships and/or collaboration with industry partners under the TUCCR initiative. 
+The SCS group offers a stimulating, supportive, and diverse research environment, as well as plenty of opportunities for personal and professional growth.
 
 
-<b>For details and application submission:</b> _[comming soon]_ 
+***For details and application submission:*** [Apply here](https://utwentecareers.nl/en/vacancies/1610/phd-position-on-explainable-incident-response-tuccr/)
 
 
-<b>Application deadline:</b> _[coming soon]_
+***Application deadline:*** _16 February 2024_
 
