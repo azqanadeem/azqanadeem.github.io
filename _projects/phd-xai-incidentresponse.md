@@ -11,7 +11,9 @@ related_publications: true
 
 **Description:**
 
-<em>The Semantics, Cybersecurity, and Services (SCS) group at the University of Twente and the Twente University Centre for Cybersecurity Research (TUCCR) 
+<em>Are you interested in interpretable machine learning for cybersecurity, and want to empower security practitioners 
+by improving the current state of cyber incident response? The Semantics, Cybersecurity, and Services (SCS) group at the University of Twente 
+and the Twente University Centre for Cybersecurity Research (TUCCR) 
 invites applications for a PhD Position in Explainable Incident Response.</em>
 
 
@@ -39,9 +41,32 @@ The PhD student will be embedded within the Semantics, Cybersecurity, and Servic
 The student will have the opportunity to participate in internships and/or collaboration with industry partners under the TUCCR initiative. 
 The SCS group offers a stimulating, supportive, and diverse research environment, as well as plenty of opportunities for personal and professional growth.
 
-
 ***For details and application submission:*** [Apply here](https://utwentecareers.nl/en/vacancies/1610/phd-position-on-explainable-incident-response-tuccr/)
 
 
 ***Application deadline:*** _16 February 2024_
+
+**About the organization:**
+
+The mission of the Semantics, Cybersecurity, and Services (SCS) group within the faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) 
+is to advance the development of 
+innovative online services with improved quality through context-alignment, and with reduced security and privacy threats. SCS is part of the 
+Twente University Centre for Cybersecurity Research (TUCCR), a public-private partnership where experts, 
+professionals, entrepreneurs, researchers, and students from industry and knowledge partners collaborate to deliver talents, 
+innovations, and know-how in the domain of cybersecurity. The mission of TUCCR is to strengthen the security and digital 
+sovereignty of our society by performing top-level research on real-world data, systems, and network security challenges. 
+TUCCR’s founding partners are Betaalvereniging Nederland, BetterBe, Cisco, NCSC, NDIX, Northwave, SIDN, SURF, Thales, 
+TNO, and the University of Twente.
+
+The University of Twente connects technology, science, and engineering with social sciences. Established in 1961, 
+it has since evolved into a leading hub for multidisciplinary research and education, hosting over 16,500 UT staff -- students and academics.
+At UT, we work together to find groundbreaking solutions, at the forefront of technology and the digital revolution. Our research and education 
+reaches beyond the campus. We push boundaries and join forces with relevant partners. We do this, for example, within the cooperation of the 
+four technical universities in the 
+Netherlands (4TU.Federation) and with the Vrije Universiteit in Amsterdam, with whom we offer a growing number of bachelor's programmes. 
+This attracts ambitious people from all over the world. With students from 85 different countries studying in one of our 16 bachelor's or 30 master's programmes, 
+our community is diverse and international. Our campus, designed to encourage interaction, spans over 146 hectares and boasts modern amenities, 
+sports facilities, and cultural events.
+
+
 
