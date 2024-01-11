@@ -8,13 +8,16 @@ category: On-going
 related_publications: true
 ---
 
+***For details and application submission:*** [Apply here](https://utwentecareers.nl/en/vacancies/1610/phd-position-on-explainable-incident-response-tuccr/)
+
+***Application deadline:*** _16 February 2024_
 
 **Description:**
 
 <em>Are you interested in interpretable machine learning for cybersecurity, and want to empower security practitioners 
 by improving the current state of cyber incident response? The Semantics, Cybersecurity, and Services (SCS) group at the University of Twente 
 and the Twente University Centre for Cybersecurity Research (TUCCR) 
-invites applications for a PhD Position in Explainable Incident Response.</em>
+invites applications for a fully funded PhD Position in Explainable Incident Response.</em>
 
 
 
@@ -41,10 +44,6 @@ The PhD student will be embedded within the Semantics, Cybersecurity, and Servic
 The student will have the opportunity to participate in internships and/or collaboration with industry partners under the TUCCR initiative. 
 The SCS group offers a stimulating, supportive, and diverse research environment, as well as plenty of opportunities for personal and professional growth.
 
-***For details and application submission:*** [Apply here](https://utwentecareers.nl/en/vacancies/1610/phd-position-on-explainable-incident-response-tuccr/)
-
-
-***Application deadline:*** _16 February 2024_
 
 **About the organization:**
 
