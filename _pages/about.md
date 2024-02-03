@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>ZI 2005, Zilverling, Faculty EEMCS,</p>
+    <p>ZI 2027, Zilverling, Faculty EEMCS,</p>
     <p>University of Twente, Enschede,</p>
     <p>The Netherlands</p>
 
