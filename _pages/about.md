@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: <i class="fa fa-envelope main-name"></i> a.[lastname]@utwente.nl <br/> <i class="fa fa-envelope main-name"></i> [firstname].[lastname]@tudelft.nl
+description: <i class="fa fa-envelope main-name"></i> a.[lastname]@utwente.nl
 
 profile:
   align: right
@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a lecturer at [University of Twente](https://www.utwente.nl/en/) 
+I am an Assistant Professor at [University of Twente](https://www.utwente.nl/en/) 
 in the [Semantics, Cybersecurity, and Services (SCS) group](https://www.utwente.nl/en/eemcs/scs/). 
 My research focuses on <b class="main-name"><i>explainable machine learning solutions for cyber security tasks</i></b> such as incident response, malware analysis, 
 and intrusion detection. My mission is to go beyond prediction probabilities, and extract semantically meaningful insights from 
