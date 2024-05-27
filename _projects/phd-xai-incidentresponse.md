@@ -8,10 +8,6 @@ category: On-going
 related_publications: true
 ---
 
-***For details and application submission:*** [Apply here](https://utwentecareers.nl/en/vacancies/1610/phd-position-on-explainable-incident-response-tuccr/)
-
-***Application deadline:*** _16 February 2024_
-
 **Description:**
 
 <em>Are you interested in interpretable machine learning for cybersecurity, and want to empower security practitioners 
