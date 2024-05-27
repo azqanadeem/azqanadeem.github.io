@@ -51,7 +51,7 @@ The SCS group offers a stimulating, supportive, and diverse research environment
 - You have good team spirit and like to work in an interdisciplinary and internationally oriented environment. 
 - You are proficient in English.
 
-** Our offer:**
+**Our offer:**
 
 - As a PhD candidate at UT, you will be appointed to a full-time position for four years, with a qualifier in the first year, within a very stimulating and exciting scientific environment.
 - The University offers a dynamic ecosystem with enthusiastic colleagues.
