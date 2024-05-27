@@ -44,8 +44,32 @@ The PhD student will be embedded within the Semantics, Cybersecurity, and Servic
 The student will have the opportunity to participate in internships and/or collaboration with industry partners under the TUCCR initiative. 
 The SCS group offers a stimulating, supportive, and diverse research environment, as well as plenty of opportunities for personal and professional growth.
 
+**Your profile:**
 
-**About the organization:**
+- You are a highly motivated and enthusiastic researcher, aspiring to do world-class research and have real-world impact. 
+- You have a MSc degree with excellent grades in computer science, or similar; Applications from students who are about to finish their MSc degree studies will be considered as well. 
+- You are interested in the domain of cybersecurity and have a solid background in systems security and/or data science/artificial intelligence; Some industrial experience in a cybersecurity role and prior experience with writing scientific papers are of additional advantage. 
+- You know your way around UNIX/Linux systems and can code in Python. 
+- You are curious and interested in learning how things work and how to make them better. 
+- You have a creative mind-set and excellent analytical and communication skills. 
+- You have good team spirit and like to work in an interdisciplinary and internationally oriented environment. 
+- You are proficient in English.
+
+** Our offer:**
+
+- As a PhD candidate at UT, you will be appointed to a full-time position for four years, with a qualifier in the first year, within a very stimulating and exciting scientific environment.
+- The University offers a dynamic ecosystem with enthusiastic colleagues.
+- Your salary and associated conditions are in accordance with the collective labour agreement for Dutch universities (CAO-NU).
+- There are excellent benefits including a holiday allowance of 8% of the gross annual salary, an end-of-year bonus of 8.3%, and a solid pension scheme.
+- The flexibility to work (partially) from home. 
+- A minimum of 232 leave hours in case of full-time employment based on a formal workweek of 38 hours. A full-time employment in practice means 40 hours a week, therefore resulting in 96 extra leave hours on an annual basis. 
+- Free access to sports facilities on campus. 
+- A family-friendly institution that offers parental leave (both paid and unpaid). 
+- You will have a training programme as part of the Twente Graduate School where you and your supervisors will determine a plan for a suitable education and supervision. 
+- We encourage a high degree of responsibility and independence, while collaborating with close colleagues, researchers and other staff.
+
+
+**About University of Twente:**
 
 The mission of the Semantics, Cybersecurity, and Services (SCS) group within the faculty of Electrical Engineering, Mathematics and Computer Science (EEMCS) 
 is to advance the development of 
