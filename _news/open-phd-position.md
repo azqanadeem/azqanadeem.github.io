@@ -5,4 +5,4 @@ inline: true
 award: false
 ---
 
-I'm hiring a PhD student. See the project details [here](https://azqanadeem.github.io/projects/phd-xai-incidentresponse/)!
+I have an open vacancy for a [PhD project](https://azqanadeem.github.io/projects/phd-xai-incidentresponse/). Interested? Get in touch!
