@@ -6,12 +6,12 @@
       <table class="table table-sm table-borderless">
       {% assign lectures = site.courses %}
 	  
-	  {% for item in lectures%}
+	  {% for item in lectures reversed%}
 	    {% if item.fulltime == 'true' %}
         <tr class="flex">
 		  <td><i class="fa fa-caret-right main-name"></i></td>
           <td>
-              <b><span class="main-name">"{{ item.name }}"</span> ({{ item.degree }} - {{ item.title }}) </b> <br/>
+              <b><span class="main-name">"{{ item.name }}"</span> ({{ item.degree }} {{ item.title }}) </b> <br/>
 			  <span class="lec-years"> {{ item.inst }} </span>
 			  
 			<div class="content-links">
@@ -53,7 +53,7 @@
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
       {% assign lectures = site.courses %}
-      {% for item in lectures%}
+      {% for item in lectures reversed%}
 	    {% if item.guest == 'true' %}
         <tr class="flex">
 		  <td><i class="fa fa-caret-right main-name"></i></td>
@@ -101,7 +101,7 @@
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
       {% assign lectures = site.courses %}
-      {% for item in lectures%}
+      {% for item in lectures reversed%}
 	    {% if item.csls == 'true' %}
         <tr class="flex">
 		  <td><i class="fa fa-caret-right main-name"></i></td>
