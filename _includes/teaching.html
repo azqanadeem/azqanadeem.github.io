@@ -1,13 +1,13 @@
 
 <div class="news">
-  <h4 class="font-weight-bolder">Teaching</h4>
+  <h4 class="font-weight-bolder">Courses</h4>
   {% if site.courses  %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
       {% assign lectures = site.courses %}
 	  
 	  {% for item in lectures%}
-	    {% if item.fulltime == 'true' and item.guest == 'false' %}
+	    {% if item.fulltime == 'true' %}
         <tr class="flex">
 		  <td><i class="fa fa-caret-right main-name"></i></td>
           <td>
@@ -38,15 +38,29 @@
 	 </tr>
 		  {% endif %}
       {% endfor %}
-	  
-	  {% for item in lectures%}
+      </table>
+    </div>
+  {% else %}
+    <p>No lectures so far...</p>
+  {% endif %}
+</div>
+
+<hr/>
+
+<div class="news">
+  <h4 class="font-weight-bolder">Guest Lectures</h4>
+  {% if site.courses  %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      {% assign lectures = site.courses %}
+      {% for item in lectures%}
 	    {% if item.guest == 'true' %}
         <tr class="flex">
 		  <td><i class="fa fa-caret-right main-name"></i></td>
           <td>
-               <b>Topic: <span class="main-name">"{{ item.topic }}"</span></b> (Guest lecture). <br/>
-			   [{{ item.title }}] {{ item.name }} <br/>
-			   <span class="lec-years"> {{ item.inst }} </span>
+              <b>Topic: <span class="main-name">"{{ item.topic }}"</span></b>. <br/>
+			  [{{ item.title }}] {{ item.name }} <br/>
+			  <span class="lec-years"> {{ item.inst }} </span>
 			  
 			<div class="content-links">
 			  {% if item.slides %}
@@ -56,18 +70,11 @@
 					<a href="{{ item.slides | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
 				  {% endif %}
 			   {% endif %}
-			   {% if item.slides2 %}
-				  {% if item.slides2 contains '://' %}
-					<a href="{{ item.slides2 }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
-				  {% else %}
-					<a href="{{ item.slides2 | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
-				  {% endif %}
-			   {% endif %}
 			   {% if item.transcript %}
 				  {% if item.transcript contains '://' %}
 					<a href="{{ item.transcript }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Transcript</a>
 				  {% else %}
-					<a href="{{ item.transcript | prepend: '/assets/slides/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Transcript</a>
+					<a href="{{ item.transcript | prepend: '/assets/transcripts/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Transcript</a>
 				  {% endif %}
 				{% endif %}
 			    {% if item.video %}
@@ -76,8 +83,7 @@
 			</div>
           </td>
 		  <td scope="row" class="lec-years" >{{ item.years }}</td>
-
-		 </tr>
+	 </tr>
 		  {% endif %}
       {% endfor %}
       </table>
