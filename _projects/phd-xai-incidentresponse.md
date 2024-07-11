@@ -8,6 +8,8 @@ category: On-going
 related_publications: true
 ---
 
+**We are interviewing candidates on a rolling basis. If this project interests you, please reach out via email!**
+
 **Description:**
 
 <em>Are you interested in interpretable machine learning for cybersecurity, and want to empower security practitioners 
