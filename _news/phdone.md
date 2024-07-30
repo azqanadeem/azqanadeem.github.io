@@ -5,4 +5,4 @@ inline: true
 award: false
 ---
 
-Successfully defended my PhD! #PhDone :mortar_board: :muscle: :sparkles:
+Successfully defended my PhD! [#PhDone]() :mortar_board: :muscle: :sparkles:
