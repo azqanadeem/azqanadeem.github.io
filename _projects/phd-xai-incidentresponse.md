@@ -19,24 +19,23 @@ invites applications for a fully funded PhD Position in Explainable Incident Res
 
 
 
-In recent years, machine learning (ML) solutions are increasingly being deployed in Security Operations Centers (SOCs) to enhance 
-security coverage, and to reduce the number of missed attacks. Not only do these ML systems create many false positives, 
-it is often very difficult to understand how they work in the first place {% cite nadeem2023sok %}. Moreover, the forensic analysis of incidents and incident 
-response are largely manual procedures, leading to analyst burnout and 'alert fatigue'. 
+Analysts working in Security Operations Centres (SOCs) investigate thousands of alerts on a daily basis, often leading to burnout and fatigue. 
+In recent years, machine learning (ML) has emerged as a promising solution to automate the workflows of SOC analysts. However, analysts are 
+often contractually obligated to investigate all alerts, thus, making it critical that they are able to understand how such ML-based solutions 
+work. 
 
 
-The objective of this PhD project is to create 'AI-assisted practitioners' for incident response by developing novel ML algorithms 
-that reduce analyst workload and provide decision-making assistance {% cite nadeem2021sage3 %}. We propose to develop explainable ML algorithms that 
-summarize large volumes of observable data (intrusion alerts, network & system logs) in order to discover contextually meaningful patterns from them. 
-The student will explore multi-modal learning and generative AI to produce actionable explanations from these discovered patterns 
+The objective of this PhD project is to create ‘AI-assisted practitioners' for incident response by developing novel human-in-the-loop ML 
+algorithms that reduce analyst workload and provide decision-making assistance {% cite nadeem2023sok %}. We propose to develop explainable ML algorithms that summarize 
+large volumes of observable data (intrusion alerts, network & system logs) in order to discover contextually meaningful patterns from them {% cite nadeem2021sage3 %}.
+The student will conduct fundamental research and explore various learning paradigms to develop actionable explanations from these discovered patterns 
 that are tailored to the operator's expertise. 
 
-
-The evaluation of these algorithms will be done under closed-world and open-world settings. For the closed-world setting, a major challenge 
-is the lack of suitable datasets to evaluate ML models {% cite rimmer2021open %}. The student will set up a testbed together with our industry collaborators 
-for the collection of intrusion alert datasets. For the open-world setting, the student will deploy these algorithms in real SOC environments 
-in order to measure the extent of workload reduction experienced by security analysts. In doing so, we aim to develop technologies that are not 
-only novel but also have real-world applications. 
+The evaluation of these algorithms will be done under closed-world and open-world settings. For the 
+closed-world setting, a major challenge is the lack of suitable datasets to evaluate ML models {% cite rimmer2021open %}. The student will set up a testbed together with 
+our industry collaborators for the collection of intrusion alert datasets. For the open-world setting, the student will deploy these algorithms 
+in real SOC environments in order to measure the extent of workload reduction experienced by the analysts. In doing so, we aim to develop 
+technologies that are not only novel but also have real-world applications.  
 
 The PhD student will be embedded within the Semantics, Cybersecurity, and Services (SCS) group at University of Twente. 
 The student will have the opportunity to participate in internships and/or collaboration with industry partners under the TUCCR initiative. 
@@ -45,12 +44,14 @@ The SCS group offers a stimulating, supportive, and diverse research environment
 **Your profile:**
 
 - You are a highly motivated and enthusiastic researcher, aspiring to do world-class research and have real-world impact. 
-- You have a MSc degree with excellent grades in computer science, or similar; Applications from students who are about to finish their MSc degree studies will be considered as well. 
-- You are interested in the domain of cybersecurity and have a solid background in systems security and/or data science/artificial intelligence; Some industrial experience in a cybersecurity role and prior experience with writing scientific papers are of additional advantage. 
-- You know your way around UNIX/Linux systems and can code in Python. 
-- You are curious and interested in learning how things work and how to make them better. 
-- You have a creative mind-set and excellent analytical and communication skills. 
-- You have good team spirit and like to work in an interdisciplinary and internationally oriented environment. 
+- You have a MSc degree with excellent grades in computer science, or similar, with a special emphasis on cybersecurity and/or 
+artificial intelligence; Applications from students who are about to finish their MSc degree studies will be considered as well.
+- You are interested in the domain of cybersecurity and explainability; 
+- You have a solid background in artificial intelligence and/or cybersecurity; Some industrial experience in an incident response role and prior experience with writing scientific papers are of additional advantage.
+- You know your way around UNIX/Linux systems; You can code in Python and know your war around sklearn and tensorflow.
+- You are curious and interested in learning how things work and how to make them better.
+- You have a creative mind-set and excellent analytical and communication skills.
+- You have good team spirit and like to work in an interdisciplinary and internationally oriented environment;
 - You are proficient in English.
 
 **Our offer:**
