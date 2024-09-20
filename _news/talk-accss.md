@@ -5,4 +5,4 @@ inline: true
 award: false
 ---
 
-Presenting a keynote on XAI4Cyber at the ACCSS workshop on [Security and Trustworthiness of AI](https://www.utwente.nl/en/eemcs/accss-workshop-security-ai/)! :woman_teacher:
+Presenting a keynote on XAI4Cyber at the ACCSS workshop on [Security & Trustworthiness of AI](https://www.utwente.nl/en/eemcs/accss-workshop-security-ai/)! :woman_teacher:
