@@ -8,7 +8,7 @@ category: On-going
 related_publications: true
 ---
 
-**We are interviewing candidates on a rolling basis. If this project interests you, please reach out via email!**
+**Interested? [Apply here](https://utwentecareers.nl/en/vacancies/1917/phd-position-on-explainable-incident-response-tuccr/). Dealine is October 6th, 2024**
 
 **Description:**
 
