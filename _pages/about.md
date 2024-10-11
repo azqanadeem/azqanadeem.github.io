@@ -34,4 +34,4 @@ and the teaching material can be found under [Cyber Security Lecture Series](htt
 
 
 Outside of work, I love photography, painting, and traveling. I enjoy discussions about human psychology, 
-divergent behavior, cats, imposter syndrome, and... well... cats.
+neurodivergence, cats, imposter syndrome, and... well... cats.
