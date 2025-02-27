@@ -50,10 +50,19 @@
               </a>
           </li>
 		  <!-- Teaching -->
-		  <li class="nav-item {% if page.title == 'Teaching and Supervision' %}active{% endif %}">
+		  <li class="nav-item {% if page.title == 'Teaching' %}active{% endif %}">
               <a class="nav-link" href="{{ '/teaching/' | relative_url }}">
                 Teaching
-                {% if page.title == "Teaching and Supervision" %}
+                {% if page.title == "Teaching" %}
+                <span class="sr-only">(current)</span>
+                {% endif %}
+              </a>
+          </li>
+		  <!-- Students -->
+		  <li class="nav-item {% if page.title == 'Supervision' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/supervision/' | relative_url }}">
+                Supervision
+                {% if page.title == "Supervision" %}
                 <span class="sr-only">(current)</span>
                 {% endif %}
               </a>
