@@ -5,7 +5,7 @@ year: 2024
 degree: 'MSc.'
 uni: University of Twente
 topic: Multi-modal Attack Graph Generation with SAGE
-student: Ion Băbălău
+student: Wouter J Lotgerink
 inline: true
 ---
 
