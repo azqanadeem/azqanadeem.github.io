@@ -2,15 +2,13 @@
 layout: about
 title: About
 permalink: /
-description: <i class="fa fa-envelope main-name"></i> a.[lastname]@utwente.nl
+description: 
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>ZI 2027, Zilverling, Faculty EEMCS,</p>
-    <p>University of Twente, Enschede,</p>
-    <p>The Netherlands</p>
+    <p>Delft, The Netherlands</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
