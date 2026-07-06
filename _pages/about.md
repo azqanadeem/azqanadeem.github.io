@@ -14,6 +14,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+*<This is an old website and no longer updated since I left academia in 2025>*
 
 I am an Assistant Professor at [University of Twente](https://www.utwente.nl/en/) 
 in the [Semantics, Cybersecurity, and Services (SCS) group](https://www.utwente.nl/en/eemcs/scs/). 
